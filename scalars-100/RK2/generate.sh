@@ -31,7 +31,7 @@ CORES="16 32 64 128 256 512 1024"
 
 # MEMORY=":mem=110GB"      # use 128GB nodes
 
-JOB="RK3"
+JOB="RK2"
 THREADS="1"
 
 #__________________________________
@@ -40,7 +40,7 @@ max_time="10" # 10 seconds
 output_time="0.005" # results 20 frame per second
 timesteps="10"
 
-NAME="RK3SSP"
+NAME="RK2SSP"
 
 #__________________________________
 # 16 cores

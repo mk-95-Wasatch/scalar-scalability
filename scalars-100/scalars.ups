@@ -6,7 +6,7 @@
   <SimulationComponent type="wasatch"/>
    <Solver type="hypre"/>
   <Wasatch>
-    <TimeIntegrator> RK3SSP </TimeIntegrator> 
+    <TimeIntegrator> <<integ>> </TimeIntegrator> 
 
     <Density method="CONSTANT">
       <Constant value="1.225" name="density"/>
