@@ -1,0 +1,1997 @@
+Parallel: 512 MPI processes (using MPI)
+Parallel: MPI Level Required: 0, provided: 0
+Date:       Tue Aug 23 16:04:50 2022
+Machine:    ash301
+git branch:wasatch-low-cost-integ-cmake
+git date:   Sat Jul 30 10:34:22 2022 -0600
+git hash:   9315f9f96fa6304db4fe79378b145f37ea40016d
+Assertion level: 0
+CFLAGS:          
+CXXFLAGS:        
+______________________________________________________________________
+Application Component: 	'wasatch'
+
+-------------------------------------------------------------
+Wasatch was built against:
+  SpatialOps HASH: bd7a2bac76e42e2cb528b02e2cf1291d05c71926
+             DATE: Fri Nov 12 11:34:54 2021 -0700
+     ExprLib HASH: d2950c77edb22e5f3669ddaaf2d2ed29ceb24d2c
+             DATE: Thu Aug 5 12:26:26 2021 -0600
+    TabProps HASH: eca0dc5f26b20d4f6b1cebe51b1ae97e11871e83
+             DATE: Wed Aug 11 20:11:26 2021 -0600
+-------------------------------------------------------------
+
+Linear Solver: 		hypre
+Load Balancer: 		Simple
+Scheduler: 		MPI
+Patch layout: 		(8,8,8)
+Grid statistics:
+Number of levels:		1
+Level 0:
+  Number of patches:		512
+  Total number of cells:	17173512 (33542 avg. per patch)
+Total patches in grid:		512
+Total cells in grid:		17173512 (33542 avg. per patch)
+
+Using small, individual MPI messages (no message combining)
+Detected solver: hypre
+Setting initial conditions for scalability test equation: scalability0
+Setting initial conditions for scalability test equation: scalability1
+Setting initial conditions for scalability test equation: scalability2
+Setting initial conditions for scalability test equation: scalability3
+Setting initial conditions for scalability test equation: scalability4
+Setting initial conditions for scalability test equation: scalability5
+Setting initial conditions for scalability test equation: scalability6
+Setting initial conditions for scalability test equation: scalability7
+Setting initial conditions for scalability test equation: scalability8
+Setting initial conditions for scalability test equation: scalability9
+Setting initial conditions for scalability test equation: scalability10
+Setting initial conditions for scalability test equation: scalability11
+Setting initial conditions for scalability test equation: scalability12
+Setting initial conditions for scalability test equation: scalability13
+Setting initial conditions for scalability test equation: scalability14
+Setting initial conditions for scalability test equation: scalability15
+Setting initial conditions for scalability test equation: scalability16
+Setting initial conditions for scalability test equation: scalability17
+Setting initial conditions for scalability test equation: scalability18
+Setting initial conditions for scalability test equation: scalability19
+Setting initial conditions for scalability test equation: scalability20
+Setting initial conditions for scalability test equation: scalability21
+Setting initial conditions for scalability test equation: scalability22
+Setting initial conditions for scalability test equation: scalability23
+Setting initial conditions for scalability test equation: scalability24
+Setting initial conditions for scalability test equation: scalability25
+Setting initial conditions for scalability test equation: scalability26
+Setting initial conditions for scalability test equation: scalability27
+Setting initial conditions for scalability test equation: scalability28
+Setting initial conditions for scalability test equation: scalability29
+Setting initial conditions for scalability test equation: scalability30
+Setting initial conditions for scalability test equation: scalability31
+Setting initial conditions for scalability test equation: scalability32
+Setting initial conditions for scalability test equation: scalability33
+Setting initial conditions for scalability test equation: scalability34
+Setting initial conditions for scalability test equation: scalability35
+Setting initial conditions for scalability test equation: scalability36
+Setting initial conditions for scalability test equation: scalability37
+Setting initial conditions for scalability test equation: scalability38
+Setting initial conditions for scalability test equation: scalability39
+Setting initial conditions for scalability test equation: scalability40
+Setting initial conditions for scalability test equation: scalability41
+Setting initial conditions for scalability test equation: scalability42
+Setting initial conditions for scalability test equation: scalability43
+Setting initial conditions for scalability test equation: scalability44
+Setting initial conditions for scalability test equation: scalability45
+Setting initial conditions for scalability test equation: scalability46
+Setting initial conditions for scalability test equation: scalability47
+Setting initial conditions for scalability test equation: scalability48
+Setting initial conditions for scalability test equation: scalability49
+Setting initial conditions for scalability test equation: scalability50
+Setting initial conditions for scalability test equation: scalability51
+Setting initial conditions for scalability test equation: scalability52
+Setting initial conditions for scalability test equation: scalability53
+Setting initial conditions for scalability test equation: scalability54
+Setting initial conditions for scalability test equation: scalability55
+Setting initial conditions for scalability test equation: scalability56
+Setting initial conditions for scalability test equation: scalability57
+Setting initial conditions for scalability test equation: scalability58
+Setting initial conditions for scalability test equation: scalability59
+Setting initial conditions for scalability test equation: scalability60
+Setting initial conditions for scalability test equation: scalability61
+Setting initial conditions for scalability test equation: scalability62
+Setting initial conditions for scalability test equation: scalability63
+Setting initial conditions for scalability test equation: scalability64
+Setting initial conditions for scalability test equation: scalability65
+Setting initial conditions for scalability test equation: scalability66
+Setting initial conditions for scalability test equation: scalability67
+Setting initial conditions for scalability test equation: scalability68
+Setting initial conditions for scalability test equation: scalability69
+Setting initial conditions for scalability test equation: scalability70
+Setting initial conditions for scalability test equation: scalability71
+Setting initial conditions for scalability test equation: scalability72
+Setting initial conditions for scalability test equation: scalability73
+Setting initial conditions for scalability test equation: scalability74
+Setting initial conditions for scalability test equation: scalability75
+Setting initial conditions for scalability test equation: scalability76
+Setting initial conditions for scalability test equation: scalability77
+Setting initial conditions for scalability test equation: scalability78
+Setting initial conditions for scalability test equation: scalability79
+Setting initial conditions for scalability test equation: scalability80
+Setting initial conditions for scalability test equation: scalability81
+Setting initial conditions for scalability test equation: scalability82
+Setting initial conditions for scalability test equation: scalability83
+Setting initial conditions for scalability test equation: scalability84
+Setting initial conditions for scalability test equation: scalability85
+Setting initial conditions for scalability test equation: scalability86
+Setting initial conditions for scalability test equation: scalability87
+Setting initial conditions for scalability test equation: scalability88
+Setting initial conditions for scalability test equation: scalability89
+Setting initial conditions for scalability test equation: scalability90
+Setting initial conditions for scalability test equation: scalability91
+Setting initial conditions for scalability test equation: scalability92
+Setting initial conditions for scalability test equation: scalability93
+Setting initial conditions for scalability test equation: scalability94
+Setting initial conditions for scalability test equation: scalability95
+Setting initial conditions for scalability test equation: scalability96
+Setting initial conditions for scalability test equation: scalability97
+Setting initial conditions for scalability test equation: scalability98
+Setting initial conditions for scalability test equation: scalability99
+Setting initial conditions for scalability test equation: scalability100
+Setting initial conditions for scalability test equation: scalability101
+Setting initial conditions for scalability test equation: scalability102
+Setting initial conditions for scalability test equation: scalability103
+Setting initial conditions for scalability test equation: scalability104
+Setting initial conditions for scalability test equation: scalability105
+Setting initial conditions for scalability test equation: scalability106
+Setting initial conditions for scalability test equation: scalability107
+Setting initial conditions for scalability test equation: scalability108
+Setting initial conditions for scalability test equation: scalability109
+Setting initial conditions for scalability test equation: scalability110
+Setting initial conditions for scalability test equation: scalability111
+Setting initial conditions for scalability test equation: scalability112
+Setting initial conditions for scalability test equation: scalability113
+Setting initial conditions for scalability test equation: scalability114
+Setting initial conditions for scalability test equation: scalability115
+Setting initial conditions for scalability test equation: scalability116
+Setting initial conditions for scalability test equation: scalability117
+Setting initial conditions for scalability test equation: scalability118
+Setting initial conditions for scalability test equation: scalability119
+Setting initial conditions for scalability test equation: scalability120
+Setting initial conditions for scalability test equation: scalability121
+Setting initial conditions for scalability test equation: scalability122
+Setting initial conditions for scalability test equation: scalability123
+Setting initial conditions for scalability test equation: scalability124
+Setting initial conditions for scalability test equation: scalability125
+Setting initial conditions for scalability test equation: scalability126
+Setting initial conditions for scalability test equation: scalability127
+Setting initial conditions for scalability test equation: scalability128
+Setting initial conditions for scalability test equation: scalability129
+Setting initial conditions for scalability test equation: scalability130
+Setting initial conditions for scalability test equation: scalability131
+Setting initial conditions for scalability test equation: scalability132
+Setting initial conditions for scalability test equation: scalability133
+Setting initial conditions for scalability test equation: scalability134
+Setting initial conditions for scalability test equation: scalability135
+Setting initial conditions for scalability test equation: scalability136
+Setting initial conditions for scalability test equation: scalability137
+Setting initial conditions for scalability test equation: scalability138
+Setting initial conditions for scalability test equation: scalability139
+Setting initial conditions for scalability test equation: scalability140
+Setting initial conditions for scalability test equation: scalability141
+Setting initial conditions for scalability test equation: scalability142
+Setting initial conditions for scalability test equation: scalability143
+Setting initial conditions for scalability test equation: scalability144
+Setting initial conditions for scalability test equation: scalability145
+Setting initial conditions for scalability test equation: scalability146
+Setting initial conditions for scalability test equation: scalability147
+Setting initial conditions for scalability test equation: scalability148
+Setting initial conditions for scalability test equation: scalability149
+Setting initial conditions for scalability test equation: scalability150
+Setting initial conditions for scalability test equation: scalability151
+Setting initial conditions for scalability test equation: scalability152
+Setting initial conditions for scalability test equation: scalability153
+Setting initial conditions for scalability test equation: scalability154
+Setting initial conditions for scalability test equation: scalability155
+Setting initial conditions for scalability test equation: scalability156
+Setting initial conditions for scalability test equation: scalability157
+Setting initial conditions for scalability test equation: scalability158
+Setting initial conditions for scalability test equation: scalability159
+Setting initial conditions for scalability test equation: scalability160
+Setting initial conditions for scalability test equation: scalability161
+Setting initial conditions for scalability test equation: scalability162
+Setting initial conditions for scalability test equation: scalability163
+Setting initial conditions for scalability test equation: scalability164
+Setting initial conditions for scalability test equation: scalability165
+Setting initial conditions for scalability test equation: scalability166
+Setting initial conditions for scalability test equation: scalability167
+Setting initial conditions for scalability test equation: scalability168
+Setting initial conditions for scalability test equation: scalability169
+Setting initial conditions for scalability test equation: scalability170
+Setting initial conditions for scalability test equation: scalability171
+Setting initial conditions for scalability test equation: scalability172
+Setting initial conditions for scalability test equation: scalability173
+Setting initial conditions for scalability test equation: scalability174
+Setting initial conditions for scalability test equation: scalability175
+Setting initial conditions for scalability test equation: scalability176
+Setting initial conditions for scalability test equation: scalability177
+Setting initial conditions for scalability test equation: scalability178
+Setting initial conditions for scalability test equation: scalability179
+Setting initial conditions for scalability test equation: scalability180
+Setting initial conditions for scalability test equation: scalability181
+Setting initial conditions for scalability test equation: scalability182
+Setting initial conditions for scalability test equation: scalability183
+Setting initial conditions for scalability test equation: scalability184
+Setting initial conditions for scalability test equation: scalability185
+Setting initial conditions for scalability test equation: scalability186
+Setting initial conditions for scalability test equation: scalability187
+Setting initial conditions for scalability test equation: scalability188
+Setting initial conditions for scalability test equation: scalability189
+Setting initial conditions for scalability test equation: scalability190
+Setting initial conditions for scalability test equation: scalability191
+Setting initial conditions for scalability test equation: scalability192
+Setting initial conditions for scalability test equation: scalability193
+Setting initial conditions for scalability test equation: scalability194
+Setting initial conditions for scalability test equation: scalability195
+Setting initial conditions for scalability test equation: scalability196
+Setting initial conditions for scalability test equation: scalability197
+Setting initial conditions for scalability test equation: scalability198
+Setting initial conditions for scalability test equation: scalability199
+Setting initial conditions for scalability test equation: scalability200
+Setting initial conditions for scalability test equation: scalability201
+Setting initial conditions for scalability test equation: scalability202
+Setting initial conditions for scalability test equation: scalability203
+Setting initial conditions for scalability test equation: scalability204
+Setting initial conditions for scalability test equation: scalability205
+Setting initial conditions for scalability test equation: scalability206
+Setting initial conditions for scalability test equation: scalability207
+Setting initial conditions for scalability test equation: scalability208
+Setting initial conditions for scalability test equation: scalability209
+Setting initial conditions for scalability test equation: scalability210
+Setting initial conditions for scalability test equation: scalability211
+Setting initial conditions for scalability test equation: scalability212
+Setting initial conditions for scalability test equation: scalability213
+Setting initial conditions for scalability test equation: scalability214
+Setting initial conditions for scalability test equation: scalability215
+Setting initial conditions for scalability test equation: scalability216
+Setting initial conditions for scalability test equation: scalability217
+Setting initial conditions for scalability test equation: scalability218
+Setting initial conditions for scalability test equation: scalability219
+Setting initial conditions for scalability test equation: scalability220
+Setting initial conditions for scalability test equation: scalability221
+Setting initial conditions for scalability test equation: scalability222
+Setting initial conditions for scalability test equation: scalability223
+Setting initial conditions for scalability test equation: scalability224
+Setting initial conditions for scalability test equation: scalability225
+Setting initial conditions for scalability test equation: scalability226
+Setting initial conditions for scalability test equation: scalability227
+Setting initial conditions for scalability test equation: scalability228
+Setting initial conditions for scalability test equation: scalability229
+Setting initial conditions for scalability test equation: scalability230
+Setting initial conditions for scalability test equation: scalability231
+Setting initial conditions for scalability test equation: scalability232
+Setting initial conditions for scalability test equation: scalability233
+Setting initial conditions for scalability test equation: scalability234
+Setting initial conditions for scalability test equation: scalability235
+Setting initial conditions for scalability test equation: scalability236
+Setting initial conditions for scalability test equation: scalability237
+Setting initial conditions for scalability test equation: scalability238
+Setting initial conditions for scalability test equation: scalability239
+Setting initial conditions for scalability test equation: scalability240
+Setting initial conditions for scalability test equation: scalability241
+Setting initial conditions for scalability test equation: scalability242
+Setting initial conditions for scalability test equation: scalability243
+Setting initial conditions for scalability test equation: scalability244
+Setting initial conditions for scalability test equation: scalability245
+Setting initial conditions for scalability test equation: scalability246
+Setting initial conditions for scalability test equation: scalability247
+Setting initial conditions for scalability test equation: scalability248
+Setting initial conditions for scalability test equation: scalability249
+Setting initial conditions for scalability test equation: scalability250
+Setting initial conditions for scalability test equation: scalability251
+Setting initial conditions for scalability test equation: scalability252
+Setting initial conditions for scalability test equation: scalability253
+Setting initial conditions for scalability test equation: scalability254
+Setting initial conditions for scalability test equation: scalability255
+Setting initial conditions for scalability test equation: scalability256
+Setting initial conditions for scalability test equation: scalability257
+Setting initial conditions for scalability test equation: scalability258
+Setting initial conditions for scalability test equation: scalability259
+Setting initial conditions for scalability test equation: scalability260
+Setting initial conditions for scalability test equation: scalability261
+Setting initial conditions for scalability test equation: scalability262
+Setting initial conditions for scalability test equation: scalability263
+Setting initial conditions for scalability test equation: scalability264
+Setting initial conditions for scalability test equation: scalability265
+Setting initial conditions for scalability test equation: scalability266
+Setting initial conditions for scalability test equation: scalability267
+Setting initial conditions for scalability test equation: scalability268
+Setting initial conditions for scalability test equation: scalability269
+Setting initial conditions for scalability test equation: scalability270
+Setting initial conditions for scalability test equation: scalability271
+Setting initial conditions for scalability test equation: scalability272
+Setting initial conditions for scalability test equation: scalability273
+Setting initial conditions for scalability test equation: scalability274
+Setting initial conditions for scalability test equation: scalability275
+Setting initial conditions for scalability test equation: scalability276
+Setting initial conditions for scalability test equation: scalability277
+Setting initial conditions for scalability test equation: scalability278
+Setting initial conditions for scalability test equation: scalability279
+Setting initial conditions for scalability test equation: scalability280
+Setting initial conditions for scalability test equation: scalability281
+Setting initial conditions for scalability test equation: scalability282
+Setting initial conditions for scalability test equation: scalability283
+Setting initial conditions for scalability test equation: scalability284
+Setting initial conditions for scalability test equation: scalability285
+Setting initial conditions for scalability test equation: scalability286
+Setting initial conditions for scalability test equation: scalability287
+Setting initial conditions for scalability test equation: scalability288
+Setting initial conditions for scalability test equation: scalability289
+Setting initial conditions for scalability test equation: scalability290
+Setting initial conditions for scalability test equation: scalability291
+Setting initial conditions for scalability test equation: scalability292
+Setting initial conditions for scalability test equation: scalability293
+Setting initial conditions for scalability test equation: scalability294
+Setting initial conditions for scalability test equation: scalability295
+Setting initial conditions for scalability test equation: scalability296
+Setting initial conditions for scalability test equation: scalability297
+Setting initial conditions for scalability test equation: scalability298
+Setting initial conditions for scalability test equation: scalability299
+Setting initial conditions for scalability test equation: scalability300
+Setting initial conditions for scalability test equation: scalability301
+Setting initial conditions for scalability test equation: scalability302
+Setting initial conditions for scalability test equation: scalability303
+Setting initial conditions for scalability test equation: scalability304
+Setting initial conditions for scalability test equation: scalability305
+Setting initial conditions for scalability test equation: scalability306
+Setting initial conditions for scalability test equation: scalability307
+Setting initial conditions for scalability test equation: scalability308
+Setting initial conditions for scalability test equation: scalability309
+Setting initial conditions for scalability test equation: scalability310
+Setting initial conditions for scalability test equation: scalability311
+Setting initial conditions for scalability test equation: scalability312
+Setting initial conditions for scalability test equation: scalability313
+Setting initial conditions for scalability test equation: scalability314
+Setting initial conditions for scalability test equation: scalability315
+Setting initial conditions for scalability test equation: scalability316
+Setting initial conditions for scalability test equation: scalability317
+Setting initial conditions for scalability test equation: scalability318
+Setting initial conditions for scalability test equation: scalability319
+Setting initial conditions for scalability test equation: scalability320
+Setting initial conditions for scalability test equation: scalability321
+Setting initial conditions for scalability test equation: scalability322
+Setting initial conditions for scalability test equation: scalability323
+Setting initial conditions for scalability test equation: scalability324
+Setting initial conditions for scalability test equation: scalability325
+Setting initial conditions for scalability test equation: scalability326
+Setting initial conditions for scalability test equation: scalability327
+Setting initial conditions for scalability test equation: scalability328
+Setting initial conditions for scalability test equation: scalability329
+Setting initial conditions for scalability test equation: scalability330
+Setting initial conditions for scalability test equation: scalability331
+Setting initial conditions for scalability test equation: scalability332
+Setting initial conditions for scalability test equation: scalability333
+Setting initial conditions for scalability test equation: scalability334
+Setting initial conditions for scalability test equation: scalability335
+Setting initial conditions for scalability test equation: scalability336
+Setting initial conditions for scalability test equation: scalability337
+Setting initial conditions for scalability test equation: scalability338
+Setting initial conditions for scalability test equation: scalability339
+Setting initial conditions for scalability test equation: scalability340
+Setting initial conditions for scalability test equation: scalability341
+Setting initial conditions for scalability test equation: scalability342
+Setting initial conditions for scalability test equation: scalability343
+Setting initial conditions for scalability test equation: scalability344
+Setting initial conditions for scalability test equation: scalability345
+Setting initial conditions for scalability test equation: scalability346
+Setting initial conditions for scalability test equation: scalability347
+Setting initial conditions for scalability test equation: scalability348
+Setting initial conditions for scalability test equation: scalability349
+Setting initial conditions for scalability test equation: scalability350
+Setting initial conditions for scalability test equation: scalability351
+Setting initial conditions for scalability test equation: scalability352
+Setting initial conditions for scalability test equation: scalability353
+Setting initial conditions for scalability test equation: scalability354
+Setting initial conditions for scalability test equation: scalability355
+Setting initial conditions for scalability test equation: scalability356
+Setting initial conditions for scalability test equation: scalability357
+Setting initial conditions for scalability test equation: scalability358
+Setting initial conditions for scalability test equation: scalability359
+Setting initial conditions for scalability test equation: scalability360
+Setting initial conditions for scalability test equation: scalability361
+Setting initial conditions for scalability test equation: scalability362
+Setting initial conditions for scalability test equation: scalability363
+Setting initial conditions for scalability test equation: scalability364
+Setting initial conditions for scalability test equation: scalability365
+Setting initial conditions for scalability test equation: scalability366
+Setting initial conditions for scalability test equation: scalability367
+Setting initial conditions for scalability test equation: scalability368
+Setting initial conditions for scalability test equation: scalability369
+Setting initial conditions for scalability test equation: scalability370
+Setting initial conditions for scalability test equation: scalability371
+Setting initial conditions for scalability test equation: scalability372
+Setting initial conditions for scalability test equation: scalability373
+Setting initial conditions for scalability test equation: scalability374
+Setting initial conditions for scalability test equation: scalability375
+Setting initial conditions for scalability test equation: scalability376
+Setting initial conditions for scalability test equation: scalability377
+Setting initial conditions for scalability test equation: scalability378
+Setting initial conditions for scalability test equation: scalability379
+Setting initial conditions for scalability test equation: scalability380
+Setting initial conditions for scalability test equation: scalability381
+Setting initial conditions for scalability test equation: scalability382
+Setting initial conditions for scalability test equation: scalability383
+Setting initial conditions for scalability test equation: scalability384
+Setting initial conditions for scalability test equation: scalability385
+Setting initial conditions for scalability test equation: scalability386
+Setting initial conditions for scalability test equation: scalability387
+Setting initial conditions for scalability test equation: scalability388
+Setting initial conditions for scalability test equation: scalability389
+Setting initial conditions for scalability test equation: scalability390
+Setting initial conditions for scalability test equation: scalability391
+Setting initial conditions for scalability test equation: scalability392
+Setting initial conditions for scalability test equation: scalability393
+Setting initial conditions for scalability test equation: scalability394
+Setting initial conditions for scalability test equation: scalability395
+Setting initial conditions for scalability test equation: scalability396
+Setting initial conditions for scalability test equation: scalability397
+Setting initial conditions for scalability test equation: scalability398
+Setting initial conditions for scalability test equation: scalability399
+Setting initial conditions for scalability test equation: scalability400
+Setting initial conditions for scalability test equation: scalability401
+Setting initial conditions for scalability test equation: scalability402
+Setting initial conditions for scalability test equation: scalability403
+Setting initial conditions for scalability test equation: scalability404
+Setting initial conditions for scalability test equation: scalability405
+Setting initial conditions for scalability test equation: scalability406
+Setting initial conditions for scalability test equation: scalability407
+Setting initial conditions for scalability test equation: scalability408
+Setting initial conditions for scalability test equation: scalability409
+Setting initial conditions for scalability test equation: scalability410
+Setting initial conditions for scalability test equation: scalability411
+Setting initial conditions for scalability test equation: scalability412
+Setting initial conditions for scalability test equation: scalability413
+Setting initial conditions for scalability test equation: scalability414
+Setting initial conditions for scalability test equation: scalability415
+Setting initial conditions for scalability test equation: scalability416
+Setting initial conditions for scalability test equation: scalability417
+Setting initial conditions for scalability test equation: scalability418
+Setting initial conditions for scalability test equation: scalability419
+Setting initial conditions for scalability test equation: scalability420
+Setting initial conditions for scalability test equation: scalability421
+Setting initial conditions for scalability test equation: scalability422
+Setting initial conditions for scalability test equation: scalability423
+Setting initial conditions for scalability test equation: scalability424
+Setting initial conditions for scalability test equation: scalability425
+Setting initial conditions for scalability test equation: scalability426
+Setting initial conditions for scalability test equation: scalability427
+Setting initial conditions for scalability test equation: scalability428
+Setting initial conditions for scalability test equation: scalability429
+Setting initial conditions for scalability test equation: scalability430
+Setting initial conditions for scalability test equation: scalability431
+Setting initial conditions for scalability test equation: scalability432
+Setting initial conditions for scalability test equation: scalability433
+Setting initial conditions for scalability test equation: scalability434
+Setting initial conditions for scalability test equation: scalability435
+Setting initial conditions for scalability test equation: scalability436
+Setting initial conditions for scalability test equation: scalability437
+Setting initial conditions for scalability test equation: scalability438
+Setting initial conditions for scalability test equation: scalability439
+Setting initial conditions for scalability test equation: scalability440
+Setting initial conditions for scalability test equation: scalability441
+Setting initial conditions for scalability test equation: scalability442
+Setting initial conditions for scalability test equation: scalability443
+Setting initial conditions for scalability test equation: scalability444
+Setting initial conditions for scalability test equation: scalability445
+Setting initial conditions for scalability test equation: scalability446
+Setting initial conditions for scalability test equation: scalability447
+Setting initial conditions for scalability test equation: scalability448
+Setting initial conditions for scalability test equation: scalability449
+Setting initial conditions for scalability test equation: scalability450
+Setting initial conditions for scalability test equation: scalability451
+Setting initial conditions for scalability test equation: scalability452
+Setting initial conditions for scalability test equation: scalability453
+Setting initial conditions for scalability test equation: scalability454
+Setting initial conditions for scalability test equation: scalability455
+Setting initial conditions for scalability test equation: scalability456
+Setting initial conditions for scalability test equation: scalability457
+Setting initial conditions for scalability test equation: scalability458
+Setting initial conditions for scalability test equation: scalability459
+Setting initial conditions for scalability test equation: scalability460
+Setting initial conditions for scalability test equation: scalability461
+Setting initial conditions for scalability test equation: scalability462
+Setting initial conditions for scalability test equation: scalability463
+Setting initial conditions for scalability test equation: scalability464
+Setting initial conditions for scalability test equation: scalability465
+Setting initial conditions for scalability test equation: scalability466
+Setting initial conditions for scalability test equation: scalability467
+Setting initial conditions for scalability test equation: scalability468
+Setting initial conditions for scalability test equation: scalability469
+Setting initial conditions for scalability test equation: scalability470
+Setting initial conditions for scalability test equation: scalability471
+Setting initial conditions for scalability test equation: scalability472
+Setting initial conditions for scalability test equation: scalability473
+Setting initial conditions for scalability test equation: scalability474
+Setting initial conditions for scalability test equation: scalability475
+Setting initial conditions for scalability test equation: scalability476
+Setting initial conditions for scalability test equation: scalability477
+Setting initial conditions for scalability test equation: scalability478
+Setting initial conditions for scalability test equation: scalability479
+Setting initial conditions for scalability test equation: scalability480
+Setting initial conditions for scalability test equation: scalability481
+Setting initial conditions for scalability test equation: scalability482
+Setting initial conditions for scalability test equation: scalability483
+Setting initial conditions for scalability test equation: scalability484
+Setting initial conditions for scalability test equation: scalability485
+Setting initial conditions for scalability test equation: scalability486
+Setting initial conditions for scalability test equation: scalability487
+Setting initial conditions for scalability test equation: scalability488
+Setting initial conditions for scalability test equation: scalability489
+Setting initial conditions for scalability test equation: scalability490
+Setting initial conditions for scalability test equation: scalability491
+Setting initial conditions for scalability test equation: scalability492
+Setting initial conditions for scalability test equation: scalability493
+Setting initial conditions for scalability test equation: scalability494
+Setting initial conditions for scalability test equation: scalability495
+Setting initial conditions for scalability test equation: scalability496
+Setting initial conditions for scalability test equation: scalability497
+Setting initial conditions for scalability test equation: scalability498
+Setting initial conditions for scalability test equation: scalability499
+------------------------------------------------
+
+Compiling initialization taskgraph.
+------------------------------------------------
+SETTING INITIAL BOUNDARY CONDITIONS:
+------------------------------------------------
+Setting Initial BCs for transport equation 'scalability0'
+Setting Initial BCs for transport equation 'scalability1'
+Setting Initial BCs for transport equation 'scalability2'
+Setting Initial BCs for transport equation 'scalability3'
+Setting Initial BCs for transport equation 'scalability4'
+Setting Initial BCs for transport equation 'scalability5'
+Setting Initial BCs for transport equation 'scalability6'
+Setting Initial BCs for transport equation 'scalability7'
+Setting Initial BCs for transport equation 'scalability8'
+Setting Initial BCs for transport equation 'scalability9'
+Setting Initial BCs for transport equation 'scalability10'
+Setting Initial BCs for transport equation 'scalability11'
+Setting Initial BCs for transport equation 'scalability12'
+Setting Initial BCs for transport equation 'scalability13'
+Setting Initial BCs for transport equation 'scalability14'
+Setting Initial BCs for transport equation 'scalability15'
+Setting Initial BCs for transport equation 'scalability16'
+Setting Initial BCs for transport equation 'scalability17'
+Setting Initial BCs for transport equation 'scalability18'
+Setting Initial BCs for transport equation 'scalability19'
+Setting Initial BCs for transport equation 'scalability20'
+Setting Initial BCs for transport equation 'scalability21'
+Setting Initial BCs for transport equation 'scalability22'
+Setting Initial BCs for transport equation 'scalability23'
+Setting Initial BCs for transport equation 'scalability24'
+Setting Initial BCs for transport equation 'scalability25'
+Setting Initial BCs for transport equation 'scalability26'
+Setting Initial BCs for transport equation 'scalability27'
+Setting Initial BCs for transport equation 'scalability28'
+Setting Initial BCs for transport equation 'scalability29'
+Setting Initial BCs for transport equation 'scalability30'
+Setting Initial BCs for transport equation 'scalability31'
+Setting Initial BCs for transport equation 'scalability32'
+Setting Initial BCs for transport equation 'scalability33'
+Setting Initial BCs for transport equation 'scalability34'
+Setting Initial BCs for transport equation 'scalability35'
+Setting Initial BCs for transport equation 'scalability36'
+Setting Initial BCs for transport equation 'scalability37'
+Setting Initial BCs for transport equation 'scalability38'
+Setting Initial BCs for transport equation 'scalability39'
+Setting Initial BCs for transport equation 'scalability40'
+Setting Initial BCs for transport equation 'scalability41'
+Setting Initial BCs for transport equation 'scalability42'
+Setting Initial BCs for transport equation 'scalability43'
+Setting Initial BCs for transport equation 'scalability44'
+Setting Initial BCs for transport equation 'scalability45'
+Setting Initial BCs for transport equation 'scalability46'
+Setting Initial BCs for transport equation 'scalability47'
+Setting Initial BCs for transport equation 'scalability48'
+Setting Initial BCs for transport equation 'scalability49'
+Setting Initial BCs for transport equation 'scalability50'
+Setting Initial BCs for transport equation 'scalability51'
+Setting Initial BCs for transport equation 'scalability52'
+Setting Initial BCs for transport equation 'scalability53'
+Setting Initial BCs for transport equation 'scalability54'
+Setting Initial BCs for transport equation 'scalability55'
+Setting Initial BCs for transport equation 'scalability56'
+Setting Initial BCs for transport equation 'scalability57'
+Setting Initial BCs for transport equation 'scalability58'
+Setting Initial BCs for transport equation 'scalability59'
+Setting Initial BCs for transport equation 'scalability60'
+Setting Initial BCs for transport equation 'scalability61'
+Setting Initial BCs for transport equation 'scalability62'
+Setting Initial BCs for transport equation 'scalability63'
+Setting Initial BCs for transport equation 'scalability64'
+Setting Initial BCs for transport equation 'scalability65'
+Setting Initial BCs for transport equation 'scalability66'
+Setting Initial BCs for transport equation 'scalability67'
+Setting Initial BCs for transport equation 'scalability68'
+Setting Initial BCs for transport equation 'scalability69'
+Setting Initial BCs for transport equation 'scalability70'
+Setting Initial BCs for transport equation 'scalability71'
+Setting Initial BCs for transport equation 'scalability72'
+Setting Initial BCs for transport equation 'scalability73'
+Setting Initial BCs for transport equation 'scalability74'
+Setting Initial BCs for transport equation 'scalability75'
+Setting Initial BCs for transport equation 'scalability76'
+Setting Initial BCs for transport equation 'scalability77'
+Setting Initial BCs for transport equation 'scalability78'
+Setting Initial BCs for transport equation 'scalability79'
+Setting Initial BCs for transport equation 'scalability80'
+Setting Initial BCs for transport equation 'scalability81'
+Setting Initial BCs for transport equation 'scalability82'
+Setting Initial BCs for transport equation 'scalability83'
+Setting Initial BCs for transport equation 'scalability84'
+Setting Initial BCs for transport equation 'scalability85'
+Setting Initial BCs for transport equation 'scalability86'
+Setting Initial BCs for transport equation 'scalability87'
+Setting Initial BCs for transport equation 'scalability88'
+Setting Initial BCs for transport equation 'scalability89'
+Setting Initial BCs for transport equation 'scalability90'
+Setting Initial BCs for transport equation 'scalability91'
+Setting Initial BCs for transport equation 'scalability92'
+Setting Initial BCs for transport equation 'scalability93'
+Setting Initial BCs for transport equation 'scalability94'
+Setting Initial BCs for transport equation 'scalability95'
+Setting Initial BCs for transport equation 'scalability96'
+Setting Initial BCs for transport equation 'scalability97'
+Setting Initial BCs for transport equation 'scalability98'
+Setting Initial BCs for transport equation 'scalability99'
+Setting Initial BCs for transport equation 'scalability100'
+Setting Initial BCs for transport equation 'scalability101'
+Setting Initial BCs for transport equation 'scalability102'
+Setting Initial BCs for transport equation 'scalability103'
+Setting Initial BCs for transport equation 'scalability104'
+Setting Initial BCs for transport equation 'scalability105'
+Setting Initial BCs for transport equation 'scalability106'
+Setting Initial BCs for transport equation 'scalability107'
+Setting Initial BCs for transport equation 'scalability108'
+Setting Initial BCs for transport equation 'scalability109'
+Setting Initial BCs for transport equation 'scalability110'
+Setting Initial BCs for transport equation 'scalability111'
+Setting Initial BCs for transport equation 'scalability112'
+Setting Initial BCs for transport equation 'scalability113'
+Setting Initial BCs for transport equation 'scalability114'
+Setting Initial BCs for transport equation 'scalability115'
+Setting Initial BCs for transport equation 'scalability116'
+Setting Initial BCs for transport equation 'scalability117'
+Setting Initial BCs for transport equation 'scalability118'
+Setting Initial BCs for transport equation 'scalability119'
+Setting Initial BCs for transport equation 'scalability120'
+Setting Initial BCs for transport equation 'scalability121'
+Setting Initial BCs for transport equation 'scalability122'
+Setting Initial BCs for transport equation 'scalability123'
+Setting Initial BCs for transport equation 'scalability124'
+Setting Initial BCs for transport equation 'scalability125'
+Setting Initial BCs for transport equation 'scalability126'
+Setting Initial BCs for transport equation 'scalability127'
+Setting Initial BCs for transport equation 'scalability128'
+Setting Initial BCs for transport equation 'scalability129'
+Setting Initial BCs for transport equation 'scalability130'
+Setting Initial BCs for transport equation 'scalability131'
+Setting Initial BCs for transport equation 'scalability132'
+Setting Initial BCs for transport equation 'scalability133'
+Setting Initial BCs for transport equation 'scalability134'
+Setting Initial BCs for transport equation 'scalability135'
+Setting Initial BCs for transport equation 'scalability136'
+Setting Initial BCs for transport equation 'scalability137'
+Setting Initial BCs for transport equation 'scalability138'
+Setting Initial BCs for transport equation 'scalability139'
+Setting Initial BCs for transport equation 'scalability140'
+Setting Initial BCs for transport equation 'scalability141'
+Setting Initial BCs for transport equation 'scalability142'
+Setting Initial BCs for transport equation 'scalability143'
+Setting Initial BCs for transport equation 'scalability144'
+Setting Initial BCs for transport equation 'scalability145'
+Setting Initial BCs for transport equation 'scalability146'
+Setting Initial BCs for transport equation 'scalability147'
+Setting Initial BCs for transport equation 'scalability148'
+Setting Initial BCs for transport equation 'scalability149'
+Setting Initial BCs for transport equation 'scalability150'
+Setting Initial BCs for transport equation 'scalability151'
+Setting Initial BCs for transport equation 'scalability152'
+Setting Initial BCs for transport equation 'scalability153'
+Setting Initial BCs for transport equation 'scalability154'
+Setting Initial BCs for transport equation 'scalability155'
+Setting Initial BCs for transport equation 'scalability156'
+Setting Initial BCs for transport equation 'scalability157'
+Setting Initial BCs for transport equation 'scalability158'
+Setting Initial BCs for transport equation 'scalability159'
+Setting Initial BCs for transport equation 'scalability160'
+Setting Initial BCs for transport equation 'scalability161'
+Setting Initial BCs for transport equation 'scalability162'
+Setting Initial BCs for transport equation 'scalability163'
+Setting Initial BCs for transport equation 'scalability164'
+Setting Initial BCs for transport equation 'scalability165'
+Setting Initial BCs for transport equation 'scalability166'
+Setting Initial BCs for transport equation 'scalability167'
+Setting Initial BCs for transport equation 'scalability168'
+Setting Initial BCs for transport equation 'scalability169'
+Setting Initial BCs for transport equation 'scalability170'
+Setting Initial BCs for transport equation 'scalability171'
+Setting Initial BCs for transport equation 'scalability172'
+Setting Initial BCs for transport equation 'scalability173'
+Setting Initial BCs for transport equation 'scalability174'
+Setting Initial BCs for transport equation 'scalability175'
+Setting Initial BCs for transport equation 'scalability176'
+Setting Initial BCs for transport equation 'scalability177'
+Setting Initial BCs for transport equation 'scalability178'
+Setting Initial BCs for transport equation 'scalability179'
+Setting Initial BCs for transport equation 'scalability180'
+Setting Initial BCs for transport equation 'scalability181'
+Setting Initial BCs for transport equation 'scalability182'
+Setting Initial BCs for transport equation 'scalability183'
+Setting Initial BCs for transport equation 'scalability184'
+Setting Initial BCs for transport equation 'scalability185'
+Setting Initial BCs for transport equation 'scalability186'
+Setting Initial BCs for transport equation 'scalability187'
+Setting Initial BCs for transport equation 'scalability188'
+Setting Initial BCs for transport equation 'scalability189'
+Setting Initial BCs for transport equation 'scalability190'
+Setting Initial BCs for transport equation 'scalability191'
+Setting Initial BCs for transport equation 'scalability192'
+Setting Initial BCs for transport equation 'scalability193'
+Setting Initial BCs for transport equation 'scalability194'
+Setting Initial BCs for transport equation 'scalability195'
+Setting Initial BCs for transport equation 'scalability196'
+Setting Initial BCs for transport equation 'scalability197'
+Setting Initial BCs for transport equation 'scalability198'
+Setting Initial BCs for transport equation 'scalability199'
+Setting Initial BCs for transport equation 'scalability200'
+Setting Initial BCs for transport equation 'scalability201'
+Setting Initial BCs for transport equation 'scalability202'
+Setting Initial BCs for transport equation 'scalability203'
+Setting Initial BCs for transport equation 'scalability204'
+Setting Initial BCs for transport equation 'scalability205'
+Setting Initial BCs for transport equation 'scalability206'
+Setting Initial BCs for transport equation 'scalability207'
+Setting Initial BCs for transport equation 'scalability208'
+Setting Initial BCs for transport equation 'scalability209'
+Setting Initial BCs for transport equation 'scalability210'
+Setting Initial BCs for transport equation 'scalability211'
+Setting Initial BCs for transport equation 'scalability212'
+Setting Initial BCs for transport equation 'scalability213'
+Setting Initial BCs for transport equation 'scalability214'
+Setting Initial BCs for transport equation 'scalability215'
+Setting Initial BCs for transport equation 'scalability216'
+Setting Initial BCs for transport equation 'scalability217'
+Setting Initial BCs for transport equation 'scalability218'
+Setting Initial BCs for transport equation 'scalability219'
+Setting Initial BCs for transport equation 'scalability220'
+Setting Initial BCs for transport equation 'scalability221'
+Setting Initial BCs for transport equation 'scalability222'
+Setting Initial BCs for transport equation 'scalability223'
+Setting Initial BCs for transport equation 'scalability224'
+Setting Initial BCs for transport equation 'scalability225'
+Setting Initial BCs for transport equation 'scalability226'
+Setting Initial BCs for transport equation 'scalability227'
+Setting Initial BCs for transport equation 'scalability228'
+Setting Initial BCs for transport equation 'scalability229'
+Setting Initial BCs for transport equation 'scalability230'
+Setting Initial BCs for transport equation 'scalability231'
+Setting Initial BCs for transport equation 'scalability232'
+Setting Initial BCs for transport equation 'scalability233'
+Setting Initial BCs for transport equation 'scalability234'
+Setting Initial BCs for transport equation 'scalability235'
+Setting Initial BCs for transport equation 'scalability236'
+Setting Initial BCs for transport equation 'scalability237'
+Setting Initial BCs for transport equation 'scalability238'
+Setting Initial BCs for transport equation 'scalability239'
+Setting Initial BCs for transport equation 'scalability240'
+Setting Initial BCs for transport equation 'scalability241'
+Setting Initial BCs for transport equation 'scalability242'
+Setting Initial BCs for transport equation 'scalability243'
+Setting Initial BCs for transport equation 'scalability244'
+Setting Initial BCs for transport equation 'scalability245'
+Setting Initial BCs for transport equation 'scalability246'
+Setting Initial BCs for transport equation 'scalability247'
+Setting Initial BCs for transport equation 'scalability248'
+Setting Initial BCs for transport equation 'scalability249'
+Setting Initial BCs for transport equation 'scalability250'
+Setting Initial BCs for transport equation 'scalability251'
+Setting Initial BCs for transport equation 'scalability252'
+Setting Initial BCs for transport equation 'scalability253'
+Setting Initial BCs for transport equation 'scalability254'
+Setting Initial BCs for transport equation 'scalability255'
+Setting Initial BCs for transport equation 'scalability256'
+Setting Initial BCs for transport equation 'scalability257'
+Setting Initial BCs for transport equation 'scalability258'
+Setting Initial BCs for transport equation 'scalability259'
+Setting Initial BCs for transport equation 'scalability260'
+Setting Initial BCs for transport equation 'scalability261'
+Setting Initial BCs for transport equation 'scalability262'
+Setting Initial BCs for transport equation 'scalability263'
+Setting Initial BCs for transport equation 'scalability264'
+Setting Initial BCs for transport equation 'scalability265'
+Setting Initial BCs for transport equation 'scalability266'
+Setting Initial BCs for transport equation 'scalability267'
+Setting Initial BCs for transport equation 'scalability268'
+Setting Initial BCs for transport equation 'scalability269'
+Setting Initial BCs for transport equation 'scalability270'
+Setting Initial BCs for transport equation 'scalability271'
+Setting Initial BCs for transport equation 'scalability272'
+Setting Initial BCs for transport equation 'scalability273'
+Setting Initial BCs for transport equation 'scalability274'
+Setting Initial BCs for transport equation 'scalability275'
+Setting Initial BCs for transport equation 'scalability276'
+Setting Initial BCs for transport equation 'scalability277'
+Setting Initial BCs for transport equation 'scalability278'
+Setting Initial BCs for transport equation 'scalability279'
+Setting Initial BCs for transport equation 'scalability280'
+Setting Initial BCs for transport equation 'scalability281'
+Setting Initial BCs for transport equation 'scalability282'
+Setting Initial BCs for transport equation 'scalability283'
+Setting Initial BCs for transport equation 'scalability284'
+Setting Initial BCs for transport equation 'scalability285'
+Setting Initial BCs for transport equation 'scalability286'
+Setting Initial BCs for transport equation 'scalability287'
+Setting Initial BCs for transport equation 'scalability288'
+Setting Initial BCs for transport equation 'scalability289'
+Setting Initial BCs for transport equation 'scalability290'
+Setting Initial BCs for transport equation 'scalability291'
+Setting Initial BCs for transport equation 'scalability292'
+Setting Initial BCs for transport equation 'scalability293'
+Setting Initial BCs for transport equation 'scalability294'
+Setting Initial BCs for transport equation 'scalability295'
+Setting Initial BCs for transport equation 'scalability296'
+Setting Initial BCs for transport equation 'scalability297'
+Setting Initial BCs for transport equation 'scalability298'
+Setting Initial BCs for transport equation 'scalability299'
+Setting Initial BCs for transport equation 'scalability300'
+Setting Initial BCs for transport equation 'scalability301'
+Setting Initial BCs for transport equation 'scalability302'
+Setting Initial BCs for transport equation 'scalability303'
+Setting Initial BCs for transport equation 'scalability304'
+Setting Initial BCs for transport equation 'scalability305'
+Setting Initial BCs for transport equation 'scalability306'
+Setting Initial BCs for transport equation 'scalability307'
+Setting Initial BCs for transport equation 'scalability308'
+Setting Initial BCs for transport equation 'scalability309'
+Setting Initial BCs for transport equation 'scalability310'
+Setting Initial BCs for transport equation 'scalability311'
+Setting Initial BCs for transport equation 'scalability312'
+Setting Initial BCs for transport equation 'scalability313'
+Setting Initial BCs for transport equation 'scalability314'
+Setting Initial BCs for transport equation 'scalability315'
+Setting Initial BCs for transport equation 'scalability316'
+Setting Initial BCs for transport equation 'scalability317'
+Setting Initial BCs for transport equation 'scalability318'
+Setting Initial BCs for transport equation 'scalability319'
+Setting Initial BCs for transport equation 'scalability320'
+Setting Initial BCs for transport equation 'scalability321'
+Setting Initial BCs for transport equation 'scalability322'
+Setting Initial BCs for transport equation 'scalability323'
+Setting Initial BCs for transport equation 'scalability324'
+Setting Initial BCs for transport equation 'scalability325'
+Setting Initial BCs for transport equation 'scalability326'
+Setting Initial BCs for transport equation 'scalability327'
+Setting Initial BCs for transport equation 'scalability328'
+Setting Initial BCs for transport equation 'scalability329'
+Setting Initial BCs for transport equation 'scalability330'
+Setting Initial BCs for transport equation 'scalability331'
+Setting Initial BCs for transport equation 'scalability332'
+Setting Initial BCs for transport equation 'scalability333'
+Setting Initial BCs for transport equation 'scalability334'
+Setting Initial BCs for transport equation 'scalability335'
+Setting Initial BCs for transport equation 'scalability336'
+Setting Initial BCs for transport equation 'scalability337'
+Setting Initial BCs for transport equation 'scalability338'
+Setting Initial BCs for transport equation 'scalability339'
+Setting Initial BCs for transport equation 'scalability340'
+Setting Initial BCs for transport equation 'scalability341'
+Setting Initial BCs for transport equation 'scalability342'
+Setting Initial BCs for transport equation 'scalability343'
+Setting Initial BCs for transport equation 'scalability344'
+Setting Initial BCs for transport equation 'scalability345'
+Setting Initial BCs for transport equation 'scalability346'
+Setting Initial BCs for transport equation 'scalability347'
+Setting Initial BCs for transport equation 'scalability348'
+Setting Initial BCs for transport equation 'scalability349'
+Setting Initial BCs for transport equation 'scalability350'
+Setting Initial BCs for transport equation 'scalability351'
+Setting Initial BCs for transport equation 'scalability352'
+Setting Initial BCs for transport equation 'scalability353'
+Setting Initial BCs for transport equation 'scalability354'
+Setting Initial BCs for transport equation 'scalability355'
+Setting Initial BCs for transport equation 'scalability356'
+Setting Initial BCs for transport equation 'scalability357'
+Setting Initial BCs for transport equation 'scalability358'
+Setting Initial BCs for transport equation 'scalability359'
+Setting Initial BCs for transport equation 'scalability360'
+Setting Initial BCs for transport equation 'scalability361'
+Setting Initial BCs for transport equation 'scalability362'
+Setting Initial BCs for transport equation 'scalability363'
+Setting Initial BCs for transport equation 'scalability364'
+Setting Initial BCs for transport equation 'scalability365'
+Setting Initial BCs for transport equation 'scalability366'
+Setting Initial BCs for transport equation 'scalability367'
+Setting Initial BCs for transport equation 'scalability368'
+Setting Initial BCs for transport equation 'scalability369'
+Setting Initial BCs for transport equation 'scalability370'
+Setting Initial BCs for transport equation 'scalability371'
+Setting Initial BCs for transport equation 'scalability372'
+Setting Initial BCs for transport equation 'scalability373'
+Setting Initial BCs for transport equation 'scalability374'
+Setting Initial BCs for transport equation 'scalability375'
+Setting Initial BCs for transport equation 'scalability376'
+Setting Initial BCs for transport equation 'scalability377'
+Setting Initial BCs for transport equation 'scalability378'
+Setting Initial BCs for transport equation 'scalability379'
+Setting Initial BCs for transport equation 'scalability380'
+Setting Initial BCs for transport equation 'scalability381'
+Setting Initial BCs for transport equation 'scalability382'
+Setting Initial BCs for transport equation 'scalability383'
+Setting Initial BCs for transport equation 'scalability384'
+Setting Initial BCs for transport equation 'scalability385'
+Setting Initial BCs for transport equation 'scalability386'
+Setting Initial BCs for transport equation 'scalability387'
+Setting Initial BCs for transport equation 'scalability388'
+Setting Initial BCs for transport equation 'scalability389'
+Setting Initial BCs for transport equation 'scalability390'
+Setting Initial BCs for transport equation 'scalability391'
+Setting Initial BCs for transport equation 'scalability392'
+Setting Initial BCs for transport equation 'scalability393'
+Setting Initial BCs for transport equation 'scalability394'
+Setting Initial BCs for transport equation 'scalability395'
+Setting Initial BCs for transport equation 'scalability396'
+Setting Initial BCs for transport equation 'scalability397'
+Setting Initial BCs for transport equation 'scalability398'
+Setting Initial BCs for transport equation 'scalability399'
+Setting Initial BCs for transport equation 'scalability400'
+Setting Initial BCs for transport equation 'scalability401'
+Setting Initial BCs for transport equation 'scalability402'
+Setting Initial BCs for transport equation 'scalability403'
+Setting Initial BCs for transport equation 'scalability404'
+Setting Initial BCs for transport equation 'scalability405'
+Setting Initial BCs for transport equation 'scalability406'
+Setting Initial BCs for transport equation 'scalability407'
+Setting Initial BCs for transport equation 'scalability408'
+Setting Initial BCs for transport equation 'scalability409'
+Setting Initial BCs for transport equation 'scalability410'
+Setting Initial BCs for transport equation 'scalability411'
+Setting Initial BCs for transport equation 'scalability412'
+Setting Initial BCs for transport equation 'scalability413'
+Setting Initial BCs for transport equation 'scalability414'
+Setting Initial BCs for transport equation 'scalability415'
+Setting Initial BCs for transport equation 'scalability416'
+Setting Initial BCs for transport equation 'scalability417'
+Setting Initial BCs for transport equation 'scalability418'
+Setting Initial BCs for transport equation 'scalability419'
+Setting Initial BCs for transport equation 'scalability420'
+Setting Initial BCs for transport equation 'scalability421'
+Setting Initial BCs for transport equation 'scalability422'
+Setting Initial BCs for transport equation 'scalability423'
+Setting Initial BCs for transport equation 'scalability424'
+Setting Initial BCs for transport equation 'scalability425'
+Setting Initial BCs for transport equation 'scalability426'
+Setting Initial BCs for transport equation 'scalability427'
+Setting Initial BCs for transport equation 'scalability428'
+Setting Initial BCs for transport equation 'scalability429'
+Setting Initial BCs for transport equation 'scalability430'
+Setting Initial BCs for transport equation 'scalability431'
+Setting Initial BCs for transport equation 'scalability432'
+Setting Initial BCs for transport equation 'scalability433'
+Setting Initial BCs for transport equation 'scalability434'
+Setting Initial BCs for transport equation 'scalability435'
+Setting Initial BCs for transport equation 'scalability436'
+Setting Initial BCs for transport equation 'scalability437'
+Setting Initial BCs for transport equation 'scalability438'
+Setting Initial BCs for transport equation 'scalability439'
+Setting Initial BCs for transport equation 'scalability440'
+Setting Initial BCs for transport equation 'scalability441'
+Setting Initial BCs for transport equation 'scalability442'
+Setting Initial BCs for transport equation 'scalability443'
+Setting Initial BCs for transport equation 'scalability444'
+Setting Initial BCs for transport equation 'scalability445'
+Setting Initial BCs for transport equation 'scalability446'
+Setting Initial BCs for transport equation 'scalability447'
+Setting Initial BCs for transport equation 'scalability448'
+Setting Initial BCs for transport equation 'scalability449'
+Setting Initial BCs for transport equation 'scalability450'
+Setting Initial BCs for transport equation 'scalability451'
+Setting Initial BCs for transport equation 'scalability452'
+Setting Initial BCs for transport equation 'scalability453'
+Setting Initial BCs for transport equation 'scalability454'
+Setting Initial BCs for transport equation 'scalability455'
+Setting Initial BCs for transport equation 'scalability456'
+Setting Initial BCs for transport equation 'scalability457'
+Setting Initial BCs for transport equation 'scalability458'
+Setting Initial BCs for transport equation 'scalability459'
+Setting Initial BCs for transport equation 'scalability460'
+Setting Initial BCs for transport equation 'scalability461'
+Setting Initial BCs for transport equation 'scalability462'
+Setting Initial BCs for transport equation 'scalability463'
+Setting Initial BCs for transport equation 'scalability464'
+Setting Initial BCs for transport equation 'scalability465'
+Setting Initial BCs for transport equation 'scalability466'
+Setting Initial BCs for transport equation 'scalability467'
+Setting Initial BCs for transport equation 'scalability468'
+Setting Initial BCs for transport equation 'scalability469'
+Setting Initial BCs for transport equation 'scalability470'
+Setting Initial BCs for transport equation 'scalability471'
+Setting Initial BCs for transport equation 'scalability472'
+Setting Initial BCs for transport equation 'scalability473'
+Setting Initial BCs for transport equation 'scalability474'
+Setting Initial BCs for transport equation 'scalability475'
+Setting Initial BCs for transport equation 'scalability476'
+Setting Initial BCs for transport equation 'scalability477'
+Setting Initial BCs for transport equation 'scalability478'
+Setting Initial BCs for transport equation 'scalability479'
+Setting Initial BCs for transport equation 'scalability480'
+Setting Initial BCs for transport equation 'scalability481'
+Setting Initial BCs for transport equation 'scalability482'
+Setting Initial BCs for transport equation 'scalability483'
+Setting Initial BCs for transport equation 'scalability484'
+Setting Initial BCs for transport equation 'scalability485'
+Setting Initial BCs for transport equation 'scalability486'
+Setting Initial BCs for transport equation 'scalability487'
+Setting Initial BCs for transport equation 'scalability488'
+Setting Initial BCs for transport equation 'scalability489'
+Setting Initial BCs for transport equation 'scalability490'
+Setting Initial BCs for transport equation 'scalability491'
+Setting Initial BCs for transport equation 'scalability492'
+Setting Initial BCs for transport equation 'scalability493'
+Setting Initial BCs for transport equation 'scalability494'
+Setting Initial BCs for transport equation 'scalability495'
+Setting Initial BCs for transport equation 'scalability496'
+Setting Initial BCs for transport equation 'scalability497'
+Setting Initial BCs for transport equation 'scalability498'
+Setting Initial BCs for transport equation 'scalability499'
+------------------------------------------------
+Wasatch: done creating initialization task(s)
+Scheduling Task 'compute timestep' COMPUTES 'delT' in NEW data warehouse
+Wasatch: done creating timestep task(s)
+Done with taskgraph compile (0.000796765 seconds)
+Warning: addContribution not implemented for LoadBalancerCommon.
+WARNING at time step 0 and sim time 0 : lowering the next delT from 1 to the maximum: 1e-05
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Comm:          512            1            1            1          510           100.0   0.0   0.0   0.0     0.0
+         Count: Gath:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          512            1            1            1          510           100.0   0.0   0.0   0.0     0.0
+          Time: Comm:      2.64 s       5.16 ms      1.53 ms      9.63 ms          426            12.9  45.9  35.0   6.2    46.4
+          Time: Gath:      42.8 s       83.6 ms      27.1 ms     0.174 s             3            36.1  39.1   9.2  15.6    51.8
+          Time: Redu:      53.7 s      0.105 s      0.363 ms     0.189 s            63             8.2  32.8  42.0  17.0    44.6
+Volume Recv TOTAL   :      1.13 MB      2.26 KB      2.26 KB      2.26 KB          510           100.0   0.0   0.0   0.0     0.0
+Volume Recv0: <= 64B:          512            1            1            1          510           100.0   0.0   0.0   0.0     0.0
+Volume Recv1: <= 4KB:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :       134 KB        269 B        269 B        269 B          510           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          512            1            1            1          510           100.0   0.0   0.0   0.0     0.0
+
+
+Simulation and run time stats are reported at the end of each time step
+EMA == Wall time as an exponential moving average using a window of the last 10 time steps
+Timestep 0       Time=0           Next delT=1e-05       Wall Time=0.734682  EMA=0.734152    Memory Used=249.27 MBs (avg) 250.34 MBs (max on rank: 7     )
+Warning: finalizeContributions not implemented for LoadBalancerCommon.
+Warning: resetCostForecaster not implemented for LoadBalancerCommon.
+Compiling taskgraph(s)...
+------------------------------------------------
+SETTING BOUNDARY CONDITIONS:
+------------------------------------------------
+Setting BCs for transport equation 'scalability0'
+Setting BCs for transport equation 'scalability1'
+Setting BCs for transport equation 'scalability2'
+Setting BCs for transport equation 'scalability3'
+Setting BCs for transport equation 'scalability4'
+Setting BCs for transport equation 'scalability5'
+Setting BCs for transport equation 'scalability6'
+Setting BCs for transport equation 'scalability7'
+Setting BCs for transport equation 'scalability8'
+Setting BCs for transport equation 'scalability9'
+Setting BCs for transport equation 'scalability10'
+Setting BCs for transport equation 'scalability11'
+Setting BCs for transport equation 'scalability12'
+Setting BCs for transport equation 'scalability13'
+Setting BCs for transport equation 'scalability14'
+Setting BCs for transport equation 'scalability15'
+Setting BCs for transport equation 'scalability16'
+Setting BCs for transport equation 'scalability17'
+Setting BCs for transport equation 'scalability18'
+Setting BCs for transport equation 'scalability19'
+Setting BCs for transport equation 'scalability20'
+Setting BCs for transport equation 'scalability21'
+Setting BCs for transport equation 'scalability22'
+Setting BCs for transport equation 'scalability23'
+Setting BCs for transport equation 'scalability24'
+Setting BCs for transport equation 'scalability25'
+Setting BCs for transport equation 'scalability26'
+Setting BCs for transport equation 'scalability27'
+Setting BCs for transport equation 'scalability28'
+Setting BCs for transport equation 'scalability29'
+Setting BCs for transport equation 'scalability30'
+Setting BCs for transport equation 'scalability31'
+Setting BCs for transport equation 'scalability32'
+Setting BCs for transport equation 'scalability33'
+Setting BCs for transport equation 'scalability34'
+Setting BCs for transport equation 'scalability35'
+Setting BCs for transport equation 'scalability36'
+Setting BCs for transport equation 'scalability37'
+Setting BCs for transport equation 'scalability38'
+Setting BCs for transport equation 'scalability39'
+Setting BCs for transport equation 'scalability40'
+Setting BCs for transport equation 'scalability41'
+Setting BCs for transport equation 'scalability42'
+Setting BCs for transport equation 'scalability43'
+Setting BCs for transport equation 'scalability44'
+Setting BCs for transport equation 'scalability45'
+Setting BCs for transport equation 'scalability46'
+Setting BCs for transport equation 'scalability47'
+Setting BCs for transport equation 'scalability48'
+Setting BCs for transport equation 'scalability49'
+Setting BCs for transport equation 'scalability50'
+Setting BCs for transport equation 'scalability51'
+Setting BCs for transport equation 'scalability52'
+Setting BCs for transport equation 'scalability53'
+Setting BCs for transport equation 'scalability54'
+Setting BCs for transport equation 'scalability55'
+Setting BCs for transport equation 'scalability56'
+Setting BCs for transport equation 'scalability57'
+Setting BCs for transport equation 'scalability58'
+Setting BCs for transport equation 'scalability59'
+Setting BCs for transport equation 'scalability60'
+Setting BCs for transport equation 'scalability61'
+Setting BCs for transport equation 'scalability62'
+Setting BCs for transport equation 'scalability63'
+Setting BCs for transport equation 'scalability64'
+Setting BCs for transport equation 'scalability65'
+Setting BCs for transport equation 'scalability66'
+Setting BCs for transport equation 'scalability67'
+Setting BCs for transport equation 'scalability68'
+Setting BCs for transport equation 'scalability69'
+Setting BCs for transport equation 'scalability70'
+Setting BCs for transport equation 'scalability71'
+Setting BCs for transport equation 'scalability72'
+Setting BCs for transport equation 'scalability73'
+Setting BCs for transport equation 'scalability74'
+Setting BCs for transport equation 'scalability75'
+Setting BCs for transport equation 'scalability76'
+Setting BCs for transport equation 'scalability77'
+Setting BCs for transport equation 'scalability78'
+Setting BCs for transport equation 'scalability79'
+Setting BCs for transport equation 'scalability80'
+Setting BCs for transport equation 'scalability81'
+Setting BCs for transport equation 'scalability82'
+Setting BCs for transport equation 'scalability83'
+Setting BCs for transport equation 'scalability84'
+Setting BCs for transport equation 'scalability85'
+Setting BCs for transport equation 'scalability86'
+Setting BCs for transport equation 'scalability87'
+Setting BCs for transport equation 'scalability88'
+Setting BCs for transport equation 'scalability89'
+Setting BCs for transport equation 'scalability90'
+Setting BCs for transport equation 'scalability91'
+Setting BCs for transport equation 'scalability92'
+Setting BCs for transport equation 'scalability93'
+Setting BCs for transport equation 'scalability94'
+Setting BCs for transport equation 'scalability95'
+Setting BCs for transport equation 'scalability96'
+Setting BCs for transport equation 'scalability97'
+Setting BCs for transport equation 'scalability98'
+Setting BCs for transport equation 'scalability99'
+Setting BCs for transport equation 'scalability100'
+Setting BCs for transport equation 'scalability101'
+Setting BCs for transport equation 'scalability102'
+Setting BCs for transport equation 'scalability103'
+Setting BCs for transport equation 'scalability104'
+Setting BCs for transport equation 'scalability105'
+Setting BCs for transport equation 'scalability106'
+Setting BCs for transport equation 'scalability107'
+Setting BCs for transport equation 'scalability108'
+Setting BCs for transport equation 'scalability109'
+Setting BCs for transport equation 'scalability110'
+Setting BCs for transport equation 'scalability111'
+Setting BCs for transport equation 'scalability112'
+Setting BCs for transport equation 'scalability113'
+Setting BCs for transport equation 'scalability114'
+Setting BCs for transport equation 'scalability115'
+Setting BCs for transport equation 'scalability116'
+Setting BCs for transport equation 'scalability117'
+Setting BCs for transport equation 'scalability118'
+Setting BCs for transport equation 'scalability119'
+Setting BCs for transport equation 'scalability120'
+Setting BCs for transport equation 'scalability121'
+Setting BCs for transport equation 'scalability122'
+Setting BCs for transport equation 'scalability123'
+Setting BCs for transport equation 'scalability124'
+Setting BCs for transport equation 'scalability125'
+Setting BCs for transport equation 'scalability126'
+Setting BCs for transport equation 'scalability127'
+Setting BCs for transport equation 'scalability128'
+Setting BCs for transport equation 'scalability129'
+Setting BCs for transport equation 'scalability130'
+Setting BCs for transport equation 'scalability131'
+Setting BCs for transport equation 'scalability132'
+Setting BCs for transport equation 'scalability133'
+Setting BCs for transport equation 'scalability134'
+Setting BCs for transport equation 'scalability135'
+Setting BCs for transport equation 'scalability136'
+Setting BCs for transport equation 'scalability137'
+Setting BCs for transport equation 'scalability138'
+Setting BCs for transport equation 'scalability139'
+Setting BCs for transport equation 'scalability140'
+Setting BCs for transport equation 'scalability141'
+Setting BCs for transport equation 'scalability142'
+Setting BCs for transport equation 'scalability143'
+Setting BCs for transport equation 'scalability144'
+Setting BCs for transport equation 'scalability145'
+Setting BCs for transport equation 'scalability146'
+Setting BCs for transport equation 'scalability147'
+Setting BCs for transport equation 'scalability148'
+Setting BCs for transport equation 'scalability149'
+Setting BCs for transport equation 'scalability150'
+Setting BCs for transport equation 'scalability151'
+Setting BCs for transport equation 'scalability152'
+Setting BCs for transport equation 'scalability153'
+Setting BCs for transport equation 'scalability154'
+Setting BCs for transport equation 'scalability155'
+Setting BCs for transport equation 'scalability156'
+Setting BCs for transport equation 'scalability157'
+Setting BCs for transport equation 'scalability158'
+Setting BCs for transport equation 'scalability159'
+Setting BCs for transport equation 'scalability160'
+Setting BCs for transport equation 'scalability161'
+Setting BCs for transport equation 'scalability162'
+Setting BCs for transport equation 'scalability163'
+Setting BCs for transport equation 'scalability164'
+Setting BCs for transport equation 'scalability165'
+Setting BCs for transport equation 'scalability166'
+Setting BCs for transport equation 'scalability167'
+Setting BCs for transport equation 'scalability168'
+Setting BCs for transport equation 'scalability169'
+Setting BCs for transport equation 'scalability170'
+Setting BCs for transport equation 'scalability171'
+Setting BCs for transport equation 'scalability172'
+Setting BCs for transport equation 'scalability173'
+Setting BCs for transport equation 'scalability174'
+Setting BCs for transport equation 'scalability175'
+Setting BCs for transport equation 'scalability176'
+Setting BCs for transport equation 'scalability177'
+Setting BCs for transport equation 'scalability178'
+Setting BCs for transport equation 'scalability179'
+Setting BCs for transport equation 'scalability180'
+Setting BCs for transport equation 'scalability181'
+Setting BCs for transport equation 'scalability182'
+Setting BCs for transport equation 'scalability183'
+Setting BCs for transport equation 'scalability184'
+Setting BCs for transport equation 'scalability185'
+Setting BCs for transport equation 'scalability186'
+Setting BCs for transport equation 'scalability187'
+Setting BCs for transport equation 'scalability188'
+Setting BCs for transport equation 'scalability189'
+Setting BCs for transport equation 'scalability190'
+Setting BCs for transport equation 'scalability191'
+Setting BCs for transport equation 'scalability192'
+Setting BCs for transport equation 'scalability193'
+Setting BCs for transport equation 'scalability194'
+Setting BCs for transport equation 'scalability195'
+Setting BCs for transport equation 'scalability196'
+Setting BCs for transport equation 'scalability197'
+Setting BCs for transport equation 'scalability198'
+Setting BCs for transport equation 'scalability199'
+Setting BCs for transport equation 'scalability200'
+Setting BCs for transport equation 'scalability201'
+Setting BCs for transport equation 'scalability202'
+Setting BCs for transport equation 'scalability203'
+Setting BCs for transport equation 'scalability204'
+Setting BCs for transport equation 'scalability205'
+Setting BCs for transport equation 'scalability206'
+Setting BCs for transport equation 'scalability207'
+Setting BCs for transport equation 'scalability208'
+Setting BCs for transport equation 'scalability209'
+Setting BCs for transport equation 'scalability210'
+Setting BCs for transport equation 'scalability211'
+Setting BCs for transport equation 'scalability212'
+Setting BCs for transport equation 'scalability213'
+Setting BCs for transport equation 'scalability214'
+Setting BCs for transport equation 'scalability215'
+Setting BCs for transport equation 'scalability216'
+Setting BCs for transport equation 'scalability217'
+Setting BCs for transport equation 'scalability218'
+Setting BCs for transport equation 'scalability219'
+Setting BCs for transport equation 'scalability220'
+Setting BCs for transport equation 'scalability221'
+Setting BCs for transport equation 'scalability222'
+Setting BCs for transport equation 'scalability223'
+Setting BCs for transport equation 'scalability224'
+Setting BCs for transport equation 'scalability225'
+Setting BCs for transport equation 'scalability226'
+Setting BCs for transport equation 'scalability227'
+Setting BCs for transport equation 'scalability228'
+Setting BCs for transport equation 'scalability229'
+Setting BCs for transport equation 'scalability230'
+Setting BCs for transport equation 'scalability231'
+Setting BCs for transport equation 'scalability232'
+Setting BCs for transport equation 'scalability233'
+Setting BCs for transport equation 'scalability234'
+Setting BCs for transport equation 'scalability235'
+Setting BCs for transport equation 'scalability236'
+Setting BCs for transport equation 'scalability237'
+Setting BCs for transport equation 'scalability238'
+Setting BCs for transport equation 'scalability239'
+Setting BCs for transport equation 'scalability240'
+Setting BCs for transport equation 'scalability241'
+Setting BCs for transport equation 'scalability242'
+Setting BCs for transport equation 'scalability243'
+Setting BCs for transport equation 'scalability244'
+Setting BCs for transport equation 'scalability245'
+Setting BCs for transport equation 'scalability246'
+Setting BCs for transport equation 'scalability247'
+Setting BCs for transport equation 'scalability248'
+Setting BCs for transport equation 'scalability249'
+Setting BCs for transport equation 'scalability250'
+Setting BCs for transport equation 'scalability251'
+Setting BCs for transport equation 'scalability252'
+Setting BCs for transport equation 'scalability253'
+Setting BCs for transport equation 'scalability254'
+Setting BCs for transport equation 'scalability255'
+Setting BCs for transport equation 'scalability256'
+Setting BCs for transport equation 'scalability257'
+Setting BCs for transport equation 'scalability258'
+Setting BCs for transport equation 'scalability259'
+Setting BCs for transport equation 'scalability260'
+Setting BCs for transport equation 'scalability261'
+Setting BCs for transport equation 'scalability262'
+Setting BCs for transport equation 'scalability263'
+Setting BCs for transport equation 'scalability264'
+Setting BCs for transport equation 'scalability265'
+Setting BCs for transport equation 'scalability266'
+Setting BCs for transport equation 'scalability267'
+Setting BCs for transport equation 'scalability268'
+Setting BCs for transport equation 'scalability269'
+Setting BCs for transport equation 'scalability270'
+Setting BCs for transport equation 'scalability271'
+Setting BCs for transport equation 'scalability272'
+Setting BCs for transport equation 'scalability273'
+Setting BCs for transport equation 'scalability274'
+Setting BCs for transport equation 'scalability275'
+Setting BCs for transport equation 'scalability276'
+Setting BCs for transport equation 'scalability277'
+Setting BCs for transport equation 'scalability278'
+Setting BCs for transport equation 'scalability279'
+Setting BCs for transport equation 'scalability280'
+Setting BCs for transport equation 'scalability281'
+Setting BCs for transport equation 'scalability282'
+Setting BCs for transport equation 'scalability283'
+Setting BCs for transport equation 'scalability284'
+Setting BCs for transport equation 'scalability285'
+Setting BCs for transport equation 'scalability286'
+Setting BCs for transport equation 'scalability287'
+Setting BCs for transport equation 'scalability288'
+Setting BCs for transport equation 'scalability289'
+Setting BCs for transport equation 'scalability290'
+Setting BCs for transport equation 'scalability291'
+Setting BCs for transport equation 'scalability292'
+Setting BCs for transport equation 'scalability293'
+Setting BCs for transport equation 'scalability294'
+Setting BCs for transport equation 'scalability295'
+Setting BCs for transport equation 'scalability296'
+Setting BCs for transport equation 'scalability297'
+Setting BCs for transport equation 'scalability298'
+Setting BCs for transport equation 'scalability299'
+Setting BCs for transport equation 'scalability300'
+Setting BCs for transport equation 'scalability301'
+Setting BCs for transport equation 'scalability302'
+Setting BCs for transport equation 'scalability303'
+Setting BCs for transport equation 'scalability304'
+Setting BCs for transport equation 'scalability305'
+Setting BCs for transport equation 'scalability306'
+Setting BCs for transport equation 'scalability307'
+Setting BCs for transport equation 'scalability308'
+Setting BCs for transport equation 'scalability309'
+Setting BCs for transport equation 'scalability310'
+Setting BCs for transport equation 'scalability311'
+Setting BCs for transport equation 'scalability312'
+Setting BCs for transport equation 'scalability313'
+Setting BCs for transport equation 'scalability314'
+Setting BCs for transport equation 'scalability315'
+Setting BCs for transport equation 'scalability316'
+Setting BCs for transport equation 'scalability317'
+Setting BCs for transport equation 'scalability318'
+Setting BCs for transport equation 'scalability319'
+Setting BCs for transport equation 'scalability320'
+Setting BCs for transport equation 'scalability321'
+Setting BCs for transport equation 'scalability322'
+Setting BCs for transport equation 'scalability323'
+Setting BCs for transport equation 'scalability324'
+Setting BCs for transport equation 'scalability325'
+Setting BCs for transport equation 'scalability326'
+Setting BCs for transport equation 'scalability327'
+Setting BCs for transport equation 'scalability328'
+Setting BCs for transport equation 'scalability329'
+Setting BCs for transport equation 'scalability330'
+Setting BCs for transport equation 'scalability331'
+Setting BCs for transport equation 'scalability332'
+Setting BCs for transport equation 'scalability333'
+Setting BCs for transport equation 'scalability334'
+Setting BCs for transport equation 'scalability335'
+Setting BCs for transport equation 'scalability336'
+Setting BCs for transport equation 'scalability337'
+Setting BCs for transport equation 'scalability338'
+Setting BCs for transport equation 'scalability339'
+Setting BCs for transport equation 'scalability340'
+Setting BCs for transport equation 'scalability341'
+Setting BCs for transport equation 'scalability342'
+Setting BCs for transport equation 'scalability343'
+Setting BCs for transport equation 'scalability344'
+Setting BCs for transport equation 'scalability345'
+Setting BCs for transport equation 'scalability346'
+Setting BCs for transport equation 'scalability347'
+Setting BCs for transport equation 'scalability348'
+Setting BCs for transport equation 'scalability349'
+Setting BCs for transport equation 'scalability350'
+Setting BCs for transport equation 'scalability351'
+Setting BCs for transport equation 'scalability352'
+Setting BCs for transport equation 'scalability353'
+Setting BCs for transport equation 'scalability354'
+Setting BCs for transport equation 'scalability355'
+Setting BCs for transport equation 'scalability356'
+Setting BCs for transport equation 'scalability357'
+Setting BCs for transport equation 'scalability358'
+Setting BCs for transport equation 'scalability359'
+Setting BCs for transport equation 'scalability360'
+Setting BCs for transport equation 'scalability361'
+Setting BCs for transport equation 'scalability362'
+Setting BCs for transport equation 'scalability363'
+Setting BCs for transport equation 'scalability364'
+Setting BCs for transport equation 'scalability365'
+Setting BCs for transport equation 'scalability366'
+Setting BCs for transport equation 'scalability367'
+Setting BCs for transport equation 'scalability368'
+Setting BCs for transport equation 'scalability369'
+Setting BCs for transport equation 'scalability370'
+Setting BCs for transport equation 'scalability371'
+Setting BCs for transport equation 'scalability372'
+Setting BCs for transport equation 'scalability373'
+Setting BCs for transport equation 'scalability374'
+Setting BCs for transport equation 'scalability375'
+Setting BCs for transport equation 'scalability376'
+Setting BCs for transport equation 'scalability377'
+Setting BCs for transport equation 'scalability378'
+Setting BCs for transport equation 'scalability379'
+Setting BCs for transport equation 'scalability380'
+Setting BCs for transport equation 'scalability381'
+Setting BCs for transport equation 'scalability382'
+Setting BCs for transport equation 'scalability383'
+Setting BCs for transport equation 'scalability384'
+Setting BCs for transport equation 'scalability385'
+Setting BCs for transport equation 'scalability386'
+Setting BCs for transport equation 'scalability387'
+Setting BCs for transport equation 'scalability388'
+Setting BCs for transport equation 'scalability389'
+Setting BCs for transport equation 'scalability390'
+Setting BCs for transport equation 'scalability391'
+Setting BCs for transport equation 'scalability392'
+Setting BCs for transport equation 'scalability393'
+Setting BCs for transport equation 'scalability394'
+Setting BCs for transport equation 'scalability395'
+Setting BCs for transport equation 'scalability396'
+Setting BCs for transport equation 'scalability397'
+Setting BCs for transport equation 'scalability398'
+Setting BCs for transport equation 'scalability399'
+Setting BCs for transport equation 'scalability400'
+Setting BCs for transport equation 'scalability401'
+Setting BCs for transport equation 'scalability402'
+Setting BCs for transport equation 'scalability403'
+Setting BCs for transport equation 'scalability404'
+Setting BCs for transport equation 'scalability405'
+Setting BCs for transport equation 'scalability406'
+Setting BCs for transport equation 'scalability407'
+Setting BCs for transport equation 'scalability408'
+Setting BCs for transport equation 'scalability409'
+Setting BCs for transport equation 'scalability410'
+Setting BCs for transport equation 'scalability411'
+Setting BCs for transport equation 'scalability412'
+Setting BCs for transport equation 'scalability413'
+Setting BCs for transport equation 'scalability414'
+Setting BCs for transport equation 'scalability415'
+Setting BCs for transport equation 'scalability416'
+Setting BCs for transport equation 'scalability417'
+Setting BCs for transport equation 'scalability418'
+Setting BCs for transport equation 'scalability419'
+Setting BCs for transport equation 'scalability420'
+Setting BCs for transport equation 'scalability421'
+Setting BCs for transport equation 'scalability422'
+Setting BCs for transport equation 'scalability423'
+Setting BCs for transport equation 'scalability424'
+Setting BCs for transport equation 'scalability425'
+Setting BCs for transport equation 'scalability426'
+Setting BCs for transport equation 'scalability427'
+Setting BCs for transport equation 'scalability428'
+Setting BCs for transport equation 'scalability429'
+Setting BCs for transport equation 'scalability430'
+Setting BCs for transport equation 'scalability431'
+Setting BCs for transport equation 'scalability432'
+Setting BCs for transport equation 'scalability433'
+Setting BCs for transport equation 'scalability434'
+Setting BCs for transport equation 'scalability435'
+Setting BCs for transport equation 'scalability436'
+Setting BCs for transport equation 'scalability437'
+Setting BCs for transport equation 'scalability438'
+Setting BCs for transport equation 'scalability439'
+Setting BCs for transport equation 'scalability440'
+Setting BCs for transport equation 'scalability441'
+Setting BCs for transport equation 'scalability442'
+Setting BCs for transport equation 'scalability443'
+Setting BCs for transport equation 'scalability444'
+Setting BCs for transport equation 'scalability445'
+Setting BCs for transport equation 'scalability446'
+Setting BCs for transport equation 'scalability447'
+Setting BCs for transport equation 'scalability448'
+Setting BCs for transport equation 'scalability449'
+Setting BCs for transport equation 'scalability450'
+Setting BCs for transport equation 'scalability451'
+Setting BCs for transport equation 'scalability452'
+Setting BCs for transport equation 'scalability453'
+Setting BCs for transport equation 'scalability454'
+Setting BCs for transport equation 'scalability455'
+Setting BCs for transport equation 'scalability456'
+Setting BCs for transport equation 'scalability457'
+Setting BCs for transport equation 'scalability458'
+Setting BCs for transport equation 'scalability459'
+Setting BCs for transport equation 'scalability460'
+Setting BCs for transport equation 'scalability461'
+Setting BCs for transport equation 'scalability462'
+Setting BCs for transport equation 'scalability463'
+Setting BCs for transport equation 'scalability464'
+Setting BCs for transport equation 'scalability465'
+Setting BCs for transport equation 'scalability466'
+Setting BCs for transport equation 'scalability467'
+Setting BCs for transport equation 'scalability468'
+Setting BCs for transport equation 'scalability469'
+Setting BCs for transport equation 'scalability470'
+Setting BCs for transport equation 'scalability471'
+Setting BCs for transport equation 'scalability472'
+Setting BCs for transport equation 'scalability473'
+Setting BCs for transport equation 'scalability474'
+Setting BCs for transport equation 'scalability475'
+Setting BCs for transport equation 'scalability476'
+Setting BCs for transport equation 'scalability477'
+Setting BCs for transport equation 'scalability478'
+Setting BCs for transport equation 'scalability479'
+Setting BCs for transport equation 'scalability480'
+Setting BCs for transport equation 'scalability481'
+Setting BCs for transport equation 'scalability482'
+Setting BCs for transport equation 'scalability483'
+Setting BCs for transport equation 'scalability484'
+Setting BCs for transport equation 'scalability485'
+Setting BCs for transport equation 'scalability486'
+Setting BCs for transport equation 'scalability487'
+Setting BCs for transport equation 'scalability488'
+Setting BCs for transport equation 'scalability489'
+Setting BCs for transport equation 'scalability490'
+Setting BCs for transport equation 'scalability491'
+Setting BCs for transport equation 'scalability492'
+Setting BCs for transport equation 'scalability493'
+Setting BCs for transport equation 'scalability494'
+Setting BCs for transport equation 'scalability495'
+Setting BCs for transport equation 'scalability496'
+Setting BCs for transport equation 'scalability497'
+Setting BCs for transport equation 'scalability498'
+Setting BCs for transport equation 'scalability499'
+------------------------------------------------
+Wasatch: done creating solution task(s)
+Wasatch: done creating post-processing task(s)
+Scheduling Task 'compute timestep' COMPUTES 'delT' in NEW data warehouse
+Wasatch: done creating timestep task(s)
+Done with taskgraph compile (1.25602 seconds)
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.14e+03           10            7           23          510            65.6  21.1   5.1   8.2    56.4
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      65.4 ms     0.128 ms  9.98e+03 ns      0.44 ms          121            49.8  39.3   9.0   2.0    71.0
+          Time: Redu:       376 s      0.734 s      0.356 ms      1.12 s             0            12.1   5.3  42.8  39.8    34.2
+          Time: Send:     0.846 s       1.65 ms     0.507 ms      3.09 ms          425            19.3  43.4  29.1   8.2    46.5
+          Time: Test:      99.7 ms     0.195 ms    0.0325 ms     0.554 ms          487            32.4  60.0   5.7   2.0    64.9
+          Time: Wait:       166 s      0.324 s         21 ms      1.05 s           259            45.5  36.5  16.6   1.4    69.1
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 1       Time=1e-05       Next delT=1e-05       Wall Time=4.13339   EMA=3.39865     Memory Used=655.11 MBs (avg) 669.39 MBs (max on rank: 409   )
+Runtime Summary  summary stats for time step 1 at time=1e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  Compilation       [seconds] : 1.22793         : 7    : 1.57798         : 0.148251        : 1.83418         : 412  : 13.9679
+  TaskExec          [seconds] : 0.72783         : 419  : 1.41369         : 0.247105        : 1.71794         : 0    : 17.7105
+  TaskLocalComm     [seconds] : 0.0405221       : 448  : 0.114019        : 0.0322285       : 0.193308        : 142  : 41.0168
+  TaskWaitCommTime  [seconds] : 0.0577148       : 289  : 0.349219        : 0.200329        : 1.06729         : 259  : 67.2798
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.22559e+08     : 455  : 6.55108e+08     : 1.3031e+07      : 6.69393e+08     : 409  : 2.13406
+  SCIMemoryMaxUsed  [MBytes ] : 6.22559e+08     : 455  : 6.55108e+08     : 1.3031e+07      : 6.69393e+08     : 409  : 2.13406
+  MemoryUsed        [MBytes ] : 1.19887e+09     : 63   : 1.25608e+09     : 1.72865e+07     : 1.28788e+09     : 89   : 2.46874
+  MemoryResident    [MBytes ] : 6.22559e+08     : 455  : 6.55108e+08     : 1.3031e+07      : 6.69393e+08     : 409  : 2.13406
+  Percentage of time spent in overhead : 45.6737
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.17e+03         10.1            6           23          510            66.6  18.9   4.9   9.6    56.1
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      60.5 ms     0.118 ms    0.0227 ms     0.297 ms          377            30.7  52.9  13.5   2.9    60.2
+          Time: Redu:       313 s      0.612 s       1.77 ms     0.967 s           448            14.5  16.6  20.9  48.0    36.7
+          Time: Send:     0.103 s      0.202 ms    0.0725 ms     0.477 ms          236            43.2  37.3  16.6   2.9    57.7
+          Time: Test:      61.6 ms      0.12 ms   9.2e+03 ns     0.742 ms           55            81.4  15.4   1.8   1.4    83.8
+          Time: Wait:       120 s      0.235 s       19.6 ms     0.719 s            97            68.4   0.0  13.5  18.2    67.3
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 2       Time=2e-05       Next delT=1e-05       Wall Time=5.672     EMA=2.15863     Memory Used=681.00 MBs (avg) 707.01 MBs (max on rank: 339   )
+Runtime Summary  summary stats for time step 2 at time=2e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.731452        : 101  : 1.2255          : 0.238645        : 1.45689         : 384  : 15.8823
+  TaskLocalComm     [seconds] : 0.0576797       : 504  : 0.147656        : 0.0408976       : 0.228468        : 348  : 35.3715
+  TaskWaitCommTime  [seconds] : 0.0412569       : 387  : 0.259256        : 0.230139        : 0.743577        : 101  : 65.1339
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37014e+08     : 455  : 6.81004e+08     : 1.70249e+07     : 7.07011e+08     : 339  : 3.67842
+  SCIMemoryMaxUsed  [MBytes ] : 6.37014e+08     : 455  : 6.81004e+08     : 1.70249e+07     : 7.07011e+08     : 339  : 3.67842
+  MemoryUsed        [MBytes ] : 1.21333e+09     : 63   : 1.28222e+09     : 2.07248e+07     : 1.31744e+09     : 209  : 2.67282
+  MemoryResident    [MBytes ] : 6.37014e+08     : 455  : 6.81004e+08     : 1.70249e+07     : 7.07011e+08     : 339  : 3.67842
+  Percentage of time spent in overhead : 22.8367
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.06e+03         9.89            6           23          510            68.9  16.8   5.5   8.8    57.0
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      60.2 ms     0.118 ms    0.0198 ms     0.316 ms          377            34.4  52.3  12.1   1.2    62.8
+          Time: Redu:       312 s       0.61 s       1.44 ms     0.969 s           448            14.6  16.8  22.5  46.1    37.0
+          Time: Send:     0.107 s       0.21 ms    0.0659 ms      0.58 ms          226            44.1  47.7   7.8   0.4    63.8
+          Time: Test:      50.2 ms     0.098 ms     0.011 ms     0.407 ms          440            61.3  28.3   9.0   1.4    75.9
+          Time: Wait:       119 s      0.233 s       19.7 ms     0.724 s            86            68.4   0.0  14.6  17.0    67.9
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 3       Time=3e-05       Next delT=1e-05       Wall Time=7.20559   EMA=1.84611     Memory Used=683.21 MBs (avg) 710.11 MBs (max on rank: 177   )
+Runtime Summary  summary stats for time step 3 at time=3e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.721707        : 86   : 1.21986         : 0.233459        : 1.45312         : 263  : 16.0522
+  TaskLocalComm     [seconds] : 0.0607981       : 504  : 0.151901        : 0.0417775       : 0.237306        : 269  : 35.9893
+  TaskWaitCommTime  [seconds] : 0.0369493       : 263  : 0.256897        : 0.224721        : 0.747457        : 86   : 65.6305
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37014e+08     : 455  : 6.83212e+08     : 1.78789e+07     : 7.10107e+08     : 177  : 3.78751
+  SCIMemoryMaxUsed  [MBytes ] : 6.37014e+08     : 455  : 6.83212e+08     : 1.78789e+07     : 7.10107e+08     : 177  : 3.78751
+  MemoryUsed        [MBytes ] : 1.21612e+09     : 63   : 1.28436e+09     : 2.15372e+07     : 1.32121e+09     : 89   : 2.78913
+  MemoryResident    [MBytes ] : 6.37014e+08     : 455  : 6.83212e+08     : 1.78789e+07     : 7.10107e+08     : 177  : 3.78751
+  Percentage of time spent in overhead : 15.2234
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:        5e+03         9.76            6           23          510            69.3  16.6   5.7   8.4    57.5
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      58.2 ms     0.114 ms    0.0192 ms     0.287 ms          351            29.3  52.9  14.3   3.5    60.3
+          Time: Redu:       296 s      0.579 s       1.26 ms     0.926 s           448            16.0  15.2  20.7  48.0    37.4
+          Time: Send:      99.7 ms     0.195 ms    0.0614 ms     0.513 ms          398            46.3  42.0   9.4   2.3    62.1
+          Time: Test:      55.7 ms     0.109 ms    0.0103 ms     0.523 ms           64            65.2  25.0   8.8   1.0    79.2
+          Time: Wait:       121 s      0.237 s       21.9 ms      0.72 s            97            68.6   0.0  12.1  19.3    67.1
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 4       Time=4e-05       Next delT=1e-05       Wall Time=8.71451   EMA=1.71123     Memory Used=683.64 MBs (avg) 712.43 MBs (max on rank: 85    )
+Runtime Summary  summary stats for time step 4 at time=4e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.696716        : 85   : 1.18704         : 0.236533        : 1.42024         : 263  : 16.4195
+  TaskLocalComm     [seconds] : 0.0600177       : 504  : 0.156767        : 0.0428312       : 0.244464        : 269  : 35.873
+  TaskWaitCommTime  [seconds] : 0.041534        : 263  : 0.262547        : 0.227971        : 0.746088        : 85   : 64.8102
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.36936e+08     : 455  : 6.83636e+08     : 1.8586e+07      : 7.1243e+08      : 85   : 4.04165
+  SCIMemoryMaxUsed  [MBytes ] : 6.36936e+08     : 455  : 6.83636e+08     : 1.8586e+07      : 7.1243e+08      : 85   : 4.04165
+  MemoryUsed        [MBytes ] : 1.21344e+09     : 63   : 1.28473e+09     : 2.21667e+07     : 1.3231e+09      : 209  : 2.89969
+  MemoryResident    [MBytes ] : 6.36936e+08     : 455  : 6.83636e+08     : 1.8586e+07      : 7.1243e+08      : 85   : 4.04165
+  Percentage of time spent in overhead : 11.4152
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.01e+03         9.79            6           23          510            69.1  17.4   5.9   7.6    57.5
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      58.5 ms     0.114 ms    0.0205 ms     0.327 ms          377            40.6  48.2  10.2   1.0    65.1
+          Time: Redu:       314 s      0.612 s      0.338 ms     0.964 s            63            13.9  16.8  18.9  50.4    36.4
+          Time: Send:     0.101 s      0.197 ms    0.0666 ms     0.545 ms          246            54.1  34.8   9.4   1.8    63.9
+          Time: Test:      55.6 ms     0.109 ms  9.66e+03 ns     0.669 ms          440            74.0  23.2   2.3   0.4    83.8
+          Time: Wait:       123 s      0.241 s       18.6 ms     0.784 s           173            68.4   0.0  18.9  12.7    69.3
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 5       Time=5e-05       Next delT=1e-05       Wall Time=10.2633   EMA=1.65707     Memory Used=683.36 MBs (avg) 712.12 MBs (max on rank: 405   )
+Runtime Summary  summary stats for time step 5 at time=5e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.673665        : 173  : 1.2231          : 0.245959        : 1.46025         : 446  : 16.2404
+  TaskLocalComm     [seconds] : 0.0618722       : 504  : 0.155164        : 0.0424096       : 0.238868        : 156  : 35.0421
+  TaskWaitCommTime  [seconds] : 0.0413992       : 239  : 0.266719        : 0.237983        : 0.810993        : 173  : 67.1121
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37219e+08     : 455  : 6.83364e+08     : 1.88256e+07     : 7.12118e+08     : 405  : 4.03787
+  SCIMemoryMaxUsed  [MBytes ] : 6.37219e+08     : 455  : 6.83364e+08     : 1.88256e+07     : 7.12118e+08     : 405  : 4.03787
+  MemoryUsed        [MBytes ] : 1.21371e+09     : 63   : 1.28439e+09     : 2.23588e+07     : 1.32153e+09     : 209  : 2.8097
+  MemoryResident    [MBytes ] : 6.37219e+08     : 455  : 6.83364e+08     : 1.88256e+07     : 7.12118e+08     : 405  : 4.03787
+  Percentage of time spent in overhead : 9.12846
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.02e+03         9.81            6           23          510            68.8  17.2   5.7   8.4    57.4
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      61.8 ms     0.121 ms    0.0203 ms     0.313 ms          351            32.4  51.2  14.1   2.3    61.4
+          Time: Redu:       314 s      0.614 s      0.342 ms     0.969 s            63            14.3  17.0  18.6  50.2    36.7
+          Time: Send:     0.114 s      0.223 ms    0.0582 ms     0.533 ms          431            36.3  42.0  18.4   3.3    58.1
+          Time: Test:      47.7 ms    0.0933 ms  9.48e+03 ns     0.601 ms          127            80.9  17.6   0.8   0.8    84.5
+          Time: Wait:       125 s      0.243 s       20.9 ms     0.723 s            86            67.4   0.0  12.9  19.7    66.4
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 6       Time=6e-05       Next delT=1e-05       Wall Time=11.8213   EMA=1.62878     Memory Used=683.11 MBs (avg) 712.74 MBs (max on rank: 277   )
+Runtime Summary  summary stats for time step 6 at time=6e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.73888         : 86   : 1.22776         : 0.241225        : 1.46345         : 384  : 16.1051
+  TaskLocalComm     [seconds] : 0.0601018       : 504  : 0.157441        : 0.0427429       : 0.237792        : 142  : 33.7904
+  TaskWaitCommTime  [seconds] : 0.0440523       : 239  : 0.269334        : 0.23232         : 0.750847        : 86   : 64.1292
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.3726e+08      : 455  : 6.83114e+08     : 1.88024e+07     : 7.12745e+08     : 277  : 4.15726
+  SCIMemoryMaxUsed  [MBytes ] : 6.3726e+08      : 455  : 6.83114e+08     : 1.88024e+07     : 7.12745e+08     : 277  : 4.15726
+  MemoryUsed        [MBytes ] : 1.21375e+09     : 63   : 1.28411e+09     : 2.2334e+07      : 1.32278e+09     : 329  : 2.9236
+  MemoryResident    [MBytes ] : 6.3726e+08      : 455  : 6.83114e+08     : 1.88024e+07     : 7.12745e+08     : 277  : 4.15726
+  Percentage of time spent in overhead : 7.60187
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     5.02e+03         9.81            6           23          510            69.3  16.4   5.7   8.6    57.4
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      58.4 ms     0.114 ms     0.021 ms     0.326 ms          298            42.4  47.9   7.6   2.1    64.9
+          Time: Redu:       296 s      0.579 s      0.332 ms     0.934 s            63            15.8  14.3  25.8  44.1    38.1
+          Time: Send:     0.101 s      0.197 ms     0.065 ms     0.547 ms          246            55.9  30.9  10.9   2.3    63.9
+          Time: Test:      56.7 ms     0.111 ms  9.07e+03 ns     0.596 ms          127            68.9  26.4   3.5   1.2    81.4
+          Time: Wait:       120 s      0.234 s       17.1 ms     0.762 s           245            69.3   0.0  17.4  13.3    69.4
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 7       Time=7e-05       Next delT=1e-05       Wall Time=13.3309   EMA=1.59898     Memory Used=683.10 MBs (avg) 713.11 MBs (max on rank: 277   )
+Runtime Summary  summary stats for time step 7 at time=7e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.649           : 301  : 1.19062         : 0.240255        : 1.42539         : 446  : 16.4704
+  TaskLocalComm     [seconds] : 0.0620299       : 504  : 0.155619        : 0.0424988       : 0.23551         : 298  : 33.9228
+  TaskWaitCommTime  [seconds] : 0.0372831       : 446  : 0.259853        : 0.232032        : 0.794498        : 301  : 67.2935
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37219e+08     : 455  : 6.83098e+08     : 1.89149e+07     : 7.13105e+08     : 277  : 4.208
+  SCIMemoryMaxUsed  [MBytes ] : 6.37219e+08     : 455  : 6.83098e+08     : 1.89149e+07     : 7.13105e+08     : 277  : 4.208
+  MemoryUsed        [MBytes ] : 1.214e+09       : 63   : 1.28408e+09     : 2.243e+07       : 1.32183e+09     : 289  : 2.85571
+  MemoryResident    [MBytes ] : 6.37219e+08     : 455  : 6.83098e+08     : 1.89149e+07     : 7.13105e+08     : 277  : 4.208
+  Percentage of time spent in overhead : 6.5092
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     4.97e+03         9.71            6           23          510            68.9  17.8   4.9   8.4    57.8
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      59.4 ms     0.116 ms     0.023 ms     0.294 ms          359            33.4  49.6  13.9   3.1    60.6
+          Time: Redu:       320 s      0.625 s      0.341 ms     0.974 s            63            11.1  18.0  23.6  47.3    35.8
+          Time: Send:     0.103 s      0.202 ms    0.0636 ms     0.606 ms          431            60.7  30.1   8.2   1.0    66.7
+          Time: Test:      57.3 ms     0.112 ms  4.37e+03 ns     0.603 ms          391            69.7  26.4   3.3   0.6    81.4
+          Time: Wait:       117 s      0.228 s       23.5 ms     0.722 s            86            70.3   0.0  12.1  17.6    68.4
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 8       Time=8e-05       Next delT=1e-05       Wall Time=14.8898   EMA=1.59007     Memory Used=683.11 MBs (avg) 713.42 MBs (max on rank: 277   )
+Runtime Summary  summary stats for time step 8 at time=8e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.739148        : 86   : 1.24341         : 0.232956        : 1.4652          : 446  : 15.1369
+  TaskLocalComm     [seconds] : 0.0602909       : 504  : 0.157451        : 0.0427144       : 0.24146         : 269  : 34.7918
+  TaskWaitCommTime  [seconds] : 0.0443981       : 446  : 0.254349        : 0.224553        : 0.750375        : 86   : 66.1037
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37542e+08     : 455  : 6.83114e+08     : 1.89424e+07     : 7.13425e+08     : 277  : 4.24871
+  SCIMemoryMaxUsed  [MBytes ] : 6.37542e+08     : 455  : 6.83114e+08     : 1.89424e+07     : 7.13425e+08     : 277  : 4.24871
+  MemoryUsed        [MBytes ] : 1.21401e+09     : 63   : 1.28407e+09     : 2.24231e+07     : 1.32184e+09     : 89   : 2.8575
+  MemoryResident    [MBytes ] : 6.37542e+08     : 455  : 6.83114e+08     : 1.89424e+07     : 7.13425e+08     : 277  : 4.24871
+  Percentage of time spent in overhead : 5.68732
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     4.95e+03         9.67            6           23          510            70.9  15.8   4.5   8.8    57.9
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      61.2 ms      0.12 ms    0.0253 ms     0.299 ms          144            35.5  48.4  12.1   3.9    60.0
+          Time: Redu:       315 s      0.616 s      0.354 ms      0.99 s            63            13.9  17.4  26.0  42.8    37.8
+          Time: Send:     0.111 s      0.217 ms    0.0616 ms     0.608 ms          431            49.2  40.6   9.0   1.2    64.4
+          Time: Test:      48.7 ms    0.0951 ms  3.54e+03 ns     0.551 ms          391            72.7  23.0   3.7   0.6    82.7
+          Time: Wait:       121 s      0.237 s       22.2 ms     0.719 s            86            68.4   0.0  11.7  19.9    67.1
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 9       Time=9e-05       Next delT=1e-05       Wall Time=16.4424   EMA=1.58259     Memory Used=683.27 MBs (avg) 712.80 MBs (max on rank: 341   )
+Runtime Summary  summary stats for time step 9 at time=9e-05
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.742566        : 86   : 1.23059         : 0.238519        : 1.46571         : 384  : 16.0414
+  TaskLocalComm     [seconds] : 0.0617668       : 504  : 0.155764        : 0.0425229       : 0.237498        : 298  : 34.4148
+  TaskWaitCommTime  [seconds] : 0.044188        : 387  : 0.263047        : 0.229646        : 0.743622        : 91   : 64.6262
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37841e+08     : 63   : 6.83272e+08     : 1.90706e+07     : 7.12802e+08     : 341  : 4.14288
+  SCIMemoryMaxUsed  [MBytes ] : 6.37841e+08     : 63   : 6.83272e+08     : 1.90706e+07     : 7.12802e+08     : 341  : 4.14288
+  MemoryUsed        [MBytes ] : 1.214e+09       : 63   : 1.28422e+09     : 2.25806e+07     : 1.32342e+09     : 89   : 2.96205
+  MemoryResident    [MBytes ] : 6.37841e+08     : 63   : 6.83272e+08     : 1.90706e+07     : 7.12802e+08     : 341  : 4.14288
+  Percentage of time spent in overhead : 5.04561
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Redu:      4.1e+03            8            8            8          510           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.01e+04         19.8            7           26          438            15.6   0.0  42.2  42.2    23.9
+         Count: Test:     4.98e+03         9.73            6           23          510            69.9  16.4   5.1   8.6    57.7
+         Count: Wait:     1.72e+04         33.6            9           46          438            15.6   0.0  42.2  42.2    26.9
+          Time: Recv:      59.6 ms     0.116 ms    0.0247 ms     0.364 ms          423            52.9  40.0   6.6   0.4    68.0
+          Time: Redu:       320 s      0.625 s      0.323 ms     0.982 s            63            10.9  18.8  24.4  45.9    36.4
+          Time: Send:     0.104 s      0.204 ms    0.0658 ms     0.615 ms          431            59.8  28.9  10.7   0.6    66.9
+          Time: Test:      55.5 ms     0.108 ms  3.82e+03 ns     0.533 ms           64            68.2  23.6   7.0   1.2    79.7
+          Time: Wait:       119 s      0.232 s       18.9 ms     0.725 s            86            69.1   0.0  13.5  17.4    68.0
+Volume Recv TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Recv0: <= 64B:          513            1            1            2            0            99.8   0.0   0.0   0.2    49.9
+Volume Recv1: <= 4KB:     3.26e+03         6.37            2            9          438            15.4  42.2   0.2  42.2    29.2
+Volume Recv2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Recv3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+Volume Send TOTAL   :        11 GB        22 MB      12.8 MB      24.9 MB          438             1.6  14.1  42.2  42.2    11.8
+Volume Send0: <= 64B:     1.02e+03            2            2            2          510           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:     5.82e+03         11.4            7           14          438            15.6  42.2   0.0  42.2    18.9
+Volume Send2: <= 2MB:      4.7e+03         9.19            3           12          438            15.6   0.0  42.2  42.2    23.4
+Volume Send3: >  2MB:     2.69e+03         5.25            3            6          438             1.6  14.1  42.2  42.2    12.5
+
+Timestep 10      Time=0.0001      Next delT=1e-05       Wall Time=17.9996   EMA=1.57797     Memory Used=683.36 MBs (avg) 713.79 MBs (max on rank: 433   )
+Runtime Summary  summary stats for time step 10 at time=0.0001
+  Description       Units       Minimum           Rank   Average (512)     Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.739025        : 86   : 1.23768         : 0.234222        : 1.47419         : 384  : 16.0434
+  TaskLocalComm     [seconds] : 0.0602429       : 504  : 0.157551        : 0.0427616       : 0.24285         : 269  : 35.1242
+  TaskWaitCommTime  [seconds] : 0.0406535       : 384  : 0.258515        : 0.22659         : 0.749082        : 86   : 65.4891
+  NumberOfTasks     [tasks  ] : 6               : 0    : 6               : 0               : 6               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 73   : 33542           : 780.88          : 35937           : 0    : 6.6644
+  SCIMemoryUsed     [MBytes ] : 6.37886e+08     : 63   : 6.83358e+08     : 1.91604e+07     : 7.13789e+08     : 433  : 4.26338
+  SCIMemoryMaxUsed  [MBytes ] : 6.37886e+08     : 63   : 6.83358e+08     : 1.91604e+07     : 7.13789e+08     : 433  : 4.26338
+  MemoryUsed        [MBytes ] : 1.21401e+09     : 63   : 1.28428e+09     : 2.26612e+07     : 1.32373e+09     : 89   : 2.9798
+  MemoryResident    [MBytes ] : 6.37886e+08     : 63   : 6.83358e+08     : 1.91604e+07     : 7.13789e+08     : 433  : 4.26338
+  Percentage of time spent in overhead : 4.52968
+Sus: going down successfully
