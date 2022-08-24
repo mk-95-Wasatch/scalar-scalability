@@ -1,0 +1,173 @@
+<Uintah_specification>
+  <Meta>
+    <title>Constant Density annular jet flow at courant</title>
+  </Meta>
+
+  <SimulationComponent type="wasatch"/>
+   <Solver type="hypre"/>
+  <Wasatch>
+    <TimeIntegrator> RK3SSP </TimeIntegrator> 
+
+    <Density method="CONSTANT">
+      <Constant value="1.225" name="density"/>
+    </Density>
+
+    <!-- <Turbulence model="SMAGORINSKY">
+      <EddyViscosityCoefficient>0.15</EddyViscosityCoefficient>
+       <TurbulentSchmidt>1.0</TurbulentSchmidt>      
+    </Turbulence> -->
+
+
+    <!-- Set the initial condition expression for velocity components -->
+    
+   <BasicExpression type="XVOL">
+      <TaskList>initialization</TaskList>
+      <NameTag name="u"/>
+      <Constant>0.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="YVOL">
+      <TaskList>initialization</TaskList>
+      <NameTag name="v"/>
+      <Constant>0.0</Constant>
+   </BasicExpression>
+
+    <BasicExpression type="ZVOL">
+       <TaskList>initialization</TaskList>
+       <NameTag name="w"/>
+       <Constant>0.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="XVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="u"/>
+      <Constant>1.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="YVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="v"/>
+      <Constant>1.0</Constant>
+   </BasicExpression>
+
+    <BasicExpression type="ZVOL">
+       <TaskList>advance_solution</TaskList>
+       <NameTag name="w"/>
+       <Constant>1.0</Constant>
+    </BasicExpression>
+               
+    <BasicExpression type="SVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="viscosity"/>
+      <Constant>1e-5</Constant>
+    </BasicExpression>
+    
+
+    <ScalabilityTest>
+      <SolutionVariable>scalability</SolutionVariable>
+      <NumberOfEquations>1000</NumberOfEquations>
+      <DoDiffusion>true</DoDiffusion>
+      <DoConvection>false</DoConvection>
+      <X-Velocity> 
+          <NameTag name="u"/> 
+      </X-Velocity>
+      <Y-Velocity>
+        <NameTag name="v"/> 
+      </Y-Velocity>
+      <Z-Velocity> 
+        <NameTag name="w"/> 
+      </Z-Velocity>        
+      <DoSourceTerm kind="UNCOUPLED">false</DoSourceTerm>
+  </ScalabilityTest>
+
+
+    <!-- Momentum transport equations -->
+    <!-- <MomentumEquations>
+      <FixedCourantSum value="<<fixed_courant>>"/>
+      <X-Velocity>u</X-Velocity>
+      <X-Momentum>x-mom</X-Momentum>
+      <Y-Velocity>v</Y-Velocity>
+      <Y-Momentum>y-mom</Y-Momentum>
+      <Z-Velocity>w</Z-Velocity>
+      <Z-Momentum>z-mom</Z-Momentum>      
+      <Viscosity>
+        <NameTag name="viscosity"/>
+      </Viscosity>
+      <Pressure>
+      	<Use3DLaplacian>true</Use3DLaplacian>
+        <Parameters>
+            <solver>         cg      </solver>
+            <preconditioner> pfmg    </preconditioner>
+            <tolerance>      1e-8  </tolerance>
+            <maxiterations>  100    </maxiterations>
+        </Parameters>
+      </Pressure>
+    </MomentumEquations> -->
+
+  </Wasatch>
+
+
+  <Time>
+    <maxTime>10</maxTime>
+    <initTime>0.0</initTime>
+    <!-- <delt_init>1e-4</delt_init> -->
+    <delt_min>1e-5</delt_min>
+    <delt_max>1e-5</delt_max>
+    <max_Timesteps>10</max_Timesteps>
+    <timestep_multiplier>1</timestep_multiplier>
+  </Time>
+
+
+  <DataArchiver>
+    <filebase>scalars-1000.uda</filebase>
+    <outputTimestepInterval>0</outputTimestepInterval>
+    <!-- <outputInterval>0.005</outputInterval> -->
+    <!-- <outputInitTimestep/> -->
+    <!-- <checkpoint cycle="2" timestepInterval="1"/> -->
+    <save label="x-mom"/>
+    <save label="y-mom"/>
+    <save label="z-mom"/>
+    <!-- <save label="Crx"/> -->
+    <!-- <save label="Cry"/> -->
+    <!-- <save label="Crz"/> -->
+    <!-- <save label="delT"/> -->
+    <!-- <save label="courant_sum_max_uintah"/> -->
+    <!-- <save label="u"/> -->
+    <!-- <save label="v"/> -->
+    <!-- <save label="w"/> -->
+    <!-- <save label="viscosity"/> -->
+    <!-- <save label="pressure"/>
+    <save label="vel_magnitude"/> -->
+  </DataArchiver> 
+
+  <Grid>
+      <BoundaryConditions>
+      
+      <DefaultMaterial>all</DefaultMaterial>
+      <Face side="x-" type="Wall"/>  
+      <!-- <Face circle="x-" origin="0 0.0 0.0" radius="0.06" name="circle-inlet" type="Velocity">
+        <BCType label="u" var="Dirichlet" value="10"/>
+        <BCType label="v" var="Dirichlet" value="0.0"/>
+        <BCType label="w" var="Dirichlet" value="0.0"/>
+      </Face>
+      <Face side="x+" type="Outflow"/>       -->
+      <Face side="x+" type="Wall"/>
+      <Face side="y-" type="Wall"/>            
+      <Face side="y+" type="Wall"/>
+      <Face side="z-" type="Wall"/>            
+      <Face side="z+" type="Wall"/>
+      </BoundaryConditions>
+
+
+      <Level>
+      <Box label="1">
+        <lower>[0,-0.25,-0.25]</lower>
+        <upper>[2,0.25,0.25]</upper>
+        <resolution>[128,128,64]</resolution>
+        <patches>[4,4,2]</patches>
+      </Box>
+      <periodic>[0,0,0]</periodic>
+    </Level>
+  </Grid>
+
+</Uintah_specification>
