@@ -3,7 +3,7 @@
 here=$PWD
 cases="$(find ${here} -name "outputs")"
 
-solverDataPaths="solverData"
+# solverDataPaths="solverData"
 scalingDataPaths="scalingData"
 scalingMPIStatsPaths="mpiTimes"
 aveComponentTimesPaths="aveComponentTimes"
@@ -13,19 +13,19 @@ do
     echo "working on ${case}"
     cd $case
     # run the extraction scripts
-    ./extractSolverScalingData *.out
+    # ./extractSolverScalingData *.out
     ./extractScalingData *.out
     ./extractMPIStats *.out
 
-    solverDataPaths+=("${case}/solverScalingData")
+    # solverDataPaths+=("${case}/solverScalingData")
     scalingDataPaths+=("${case}/scalingData")
     scalingMPIStatsPaths+=("${case}/mpiTimes")
     aveComponentTimesPaths+=("${case}/aveComponentTimes")
 done
 cd $here
 
-echo "${solverDataPaths[*]}" > $here/dataPaths 
-echo "${scalingDataPaths[*]}">> $here/dataPaths 
+# echo "${solverDataPaths[*]}" > $here/dataPaths 
+echo "${scalingDataPaths[*]}"> $here/dataPaths 
 echo "${scalingMPIStatsPaths[*]}">> $here/dataPaths
 echo "${aveComponentTimesPaths[*]}">> $here/dataPaths
 
