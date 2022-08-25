@@ -1,0 +1,106 @@
+<Uintah_specification>
+  <Meta>
+    <title>scalars</title>
+  </Meta>
+
+  <SimulationComponent type="wasatch"/>
+   <Solver type="hypre"/>
+  <Wasatch>
+    <TimeIntegrator> RK2SSP </TimeIntegrator> 
+
+    <Density method="CONSTANT">
+      <Constant value="1.225" name="density"/>
+    </Density>
+    
+   <BasicExpression type="XVOL">
+      <TaskList>initialization</TaskList>
+      <NameTag name="u"/>
+      <Constant>0.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="YVOL">
+      <TaskList>initialization</TaskList>
+      <NameTag name="v"/>
+      <Constant>0.0</Constant>
+   </BasicExpression>
+
+    <BasicExpression type="ZVOL">
+       <TaskList>initialization</TaskList>
+       <NameTag name="w"/>
+       <Constant>0.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="XVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="u"/>
+      <Constant>1.0</Constant>
+    </BasicExpression>
+
+    <BasicExpression type="YVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="v"/>
+      <Constant>1.0</Constant>
+   </BasicExpression>
+
+    <BasicExpression type="ZVOL">
+       <TaskList>advance_solution</TaskList>
+       <NameTag name="w"/>
+       <Constant>1.0</Constant>
+    </BasicExpression>
+               
+    <BasicExpression type="SVOL">
+      <TaskList>advance_solution</TaskList>
+      <NameTag name="viscosity"/>
+      <Constant>1e-5</Constant>
+    </BasicExpression>
+    
+
+    <ScalabilityTest>
+      <SolutionVariable>scalability</SolutionVariable>
+      <NumberOfEquations>10</NumberOfEquations>
+      <DoDiffusion>true</DoDiffusion>
+      <DoConvection>true</DoConvection>
+      <X-Velocity> 
+          <NameTag name="u"/> 
+      </X-Velocity>
+      <Y-Velocity>
+        <NameTag name="v"/> 
+      </Y-Velocity>
+      <Z-Velocity> 
+        <NameTag name="w"/> 
+      </Z-Velocity>        
+      <DoSourceTerm kind="UNCOUPLED">true</DoSourceTerm>
+  </ScalabilityTest>
+
+  </Wasatch>
+
+
+  <Time>
+    <maxTime>10</maxTime>
+    <initTime>0.0</initTime>
+    <!-- <delt_init>1e-4</delt_init> -->
+    <delt_min>1e-5</delt_min>
+    <delt_max>1e-5</delt_max>
+    <max_Timesteps>10</max_Timesteps>
+    <timestep_multiplier>1</timestep_multiplier>
+  </Time>
+
+
+  <DataArchiver>
+    <filebase>scalars-100.uda</filebase>
+    <outputTimestepInterval>0</outputTimestepInterval>
+  </DataArchiver> 
+
+  <Grid>
+      <Level>
+      <Box label="1">
+        <lower>[0,0,0]</lower>
+        <upper>[1,1,1]</upper>
+        <resolution>[512,256,256]</resolution>
+        <patches>[16,8,8]</patches>
+      </Box>
+      <periodic>[1,1,1]</periodic>
+    </Level>
+  </Grid>
+
+</Uintah_specification>

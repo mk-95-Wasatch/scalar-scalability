@@ -1,0 +1,541 @@
+Parallel: 32 MPI processes (using MPI)
+Parallel: MPI Level Required: 0, provided: 0
+Date:       Thu Aug 25 11:44:47 2022
+Machine:    ash271
+git branch:wasatch-low-cost-integ-cmake
+git date:   Sat Jul 30 10:34:22 2022 -0600
+git hash:   9315f9f96fa6304db4fe79378b145f37ea40016d
+Assertion level: 0
+CFLAGS:          
+CXXFLAGS:        
+______________________________________________________________________
+Application Component: 	'wasatch'
+
+-------------------------------------------------------------
+Wasatch was built against:
+  SpatialOps HASH: bd7a2bac76e42e2cb528b02e2cf1291d05c71926
+             DATE: Fri Nov 12 11:34:54 2021 -0700
+     ExprLib HASH: d2950c77edb22e5f3669ddaaf2d2ed29ceb24d2c
+             DATE: Thu Aug 5 12:26:26 2021 -0600
+    TabProps HASH: eca0dc5f26b20d4f6b1cebe51b1ae97e11871e83
+             DATE: Wed Aug 11 20:11:26 2021 -0600
+-------------------------------------------------------------
+
+Linear Solver: 		hypre
+Load Balancer: 		Simple
+Scheduler: 		MPI
+Patch layout: 		(4,4,2)
+Grid statistics:
+Number of levels:		1
+Level 0:
+  Periodic boundaries:		[int 1, 1, 1]
+  Number of patches:		32
+  Total number of cells:	1048576 (32768 avg. per patch)
+Total patches in grid:		32
+Total cells in grid:		1048576 (32768 avg. per patch)
+
+Using small, individual MPI messages (no message combining)
+Detected solver: hypre
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability0
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability1
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability2
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability3
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability4
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability5
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability6
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability7
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability8
+SETTING UP CONVECTIVE FLUX EXPRESSION IN X DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Y DIRECTION USING CENTRAL
+SETTING UP CONVECTIVE FLUX EXPRESSION IN Z DIRECTION USING CENTRAL
+Setting initial conditions for scalability test equation: scalability9
+------------------------------------------------
+No BoundaryConditions specified
+  This message will only occur once
+
+Compiling initialization taskgraph.
+------------------------------------------------
+SETTING INITIAL BOUNDARY CONDITIONS:
+------------------------------------------------
+Setting Initial BCs for transport equation 'scalability0'
+Setting Initial BCs for transport equation 'scalability1'
+Setting Initial BCs for transport equation 'scalability2'
+Setting Initial BCs for transport equation 'scalability3'
+Setting Initial BCs for transport equation 'scalability4'
+Setting Initial BCs for transport equation 'scalability5'
+Setting Initial BCs for transport equation 'scalability6'
+Setting Initial BCs for transport equation 'scalability7'
+Setting Initial BCs for transport equation 'scalability8'
+Setting Initial BCs for transport equation 'scalability9'
+------------------------------------------------
+Wasatch: done creating initialization task(s)
+Scheduling Task 'compute timestep' COMPUTES 'delT' in NEW data warehouse
+Wasatch: done creating timestep task(s)
+Done with taskgraph compile (0.00016336 seconds)
+Warning: addContribution not implemented for LoadBalancerCommon.
+WARNING at time step 0 and sim time 0 : lowering the next delT from 1 to the maximum: 1e-05
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Comm:           32            1            1            1           23           100.0   0.0   0.0   0.0     0.0
+         Count: Gath:           64            2            2            2            7           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:           32            1            1            1           11           100.0   0.0   0.0   0.0     0.0
+          Time: Comm:      75.7 ms      2.36 ms         1 ms      5.65 ms           12            78.1   9.4   0.0  12.5    58.2
+          Time: Gath:     0.691 s       21.6 ms      15.4 ms      29.5 ms           17            21.9  46.9   6.2  25.0    26.8
+          Time: Redu:     0.131 s       4.11 ms    0.0291 ms      5.15 ms            5            12.5   3.1   0.0  84.4    20.2
+Volume Recv TOTAL   :      26.3 KB        841 B        841 B        841 B           18           100.0   0.0   0.0   0.0     0.0
+Volume Recv0: <= 64B:           32            1            1            1            2           100.0   0.0   0.0   0.0     0.0
+Volume Recv1: <= 4KB:           64            2            2            2           28           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      8.84 KB        283 B        281 B        285 B            4            50.0   0.0   0.0  50.0     0.7
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:           32            1            1            1            8           100.0   0.0   0.0   0.0     0.0
+
+
+Simulation and run time stats are reported at the end of each time step
+EMA == Wall time as an exponential moving average using a window of the last 10 time steps
+Timestep 0       Time=0           Next delT=1e-05       Wall Time=0.0442577 EMA=0.0416897   Memory Used=136.06 MBs (avg) 137.47 MBs (max on rank: 0     )
+Warning: finalizeContributions not implemented for LoadBalancerCommon.
+Warning: resetCostForecaster not implemented for LoadBalancerCommon.
+Compiling taskgraph(s)...
+------------------------------------------------
+SETTING BOUNDARY CONDITIONS:
+------------------------------------------------
+Setting BCs for transport equation 'scalability0'
+Setting BCs for transport equation 'scalability1'
+Setting BCs for transport equation 'scalability2'
+Setting BCs for transport equation 'scalability3'
+Setting BCs for transport equation 'scalability4'
+Setting BCs for transport equation 'scalability5'
+Setting BCs for transport equation 'scalability6'
+Setting BCs for transport equation 'scalability7'
+Setting BCs for transport equation 'scalability8'
+Setting BCs for transport equation 'scalability9'
+------------------------------------------------
+Wasatch: done creating solution task(s)
+Wasatch: done creating solution task(s)
+Wasatch: done creating post-processing task(s)
+Scheduling Task 'compute timestep' COMPUTES 'delT' in NEW data warehouse
+Wasatch: done creating timestep task(s)
+Done with taskgraph compile (0.0291322 seconds)
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          309         9.66            8           13           29            59.4   3.1   6.2  31.2    25.7
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      3.69 ms     0.115 ms    0.0219 ms     0.372 ms            6            62.5   9.4  21.9   6.2    69.0
+          Time: Redu:     0.303 s       9.47 ms     0.363 ms      24.3 ms           16            28.1  46.9  18.8   6.2    61.0
+          Time: Send:     0.767 s         24 ms      1.39 ms      29.4 ms            5             3.1   0.0  25.0  71.9    18.6
+          Time: Test:      6.87 ms     0.215 ms  7.38e+03 ns      1.04 ms            8            71.9  12.5   9.4   6.2    79.3
+          Time: Wait:      1.08 s       33.7 ms      20.5 ms      49.5 ms            0            12.5  50.0  31.2   6.2    32.0
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 1       Time=1e-05       Next delT=1e-05       Wall Time=0.187304  EMA=0.142991    Memory Used=152.83 MBs (avg) 153.91 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 1 at time=1e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  Compilation       [seconds] : 0.01594         : 24   : 0.01864         : 0.00307646      : 0.0291322       : 0    : 36.0158
+  TaskExec          [seconds] : 0.0580263       : 0    : 0.0841939       : 0.00690998      : 0.0969903       : 19   : 13.1935
+  TaskLocalComm     [seconds] : 0.00923846      : 0    : 0.0324792       : 0.00519673      : 0.0380897       : 5    : 14.7298
+  TaskWaitCommTime  [seconds] : 0.0217788       : 16   : 0.0352724       : 0.00609516      : 0.051171        : 0    : 31.0696
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.52048e+08     : 31   : 1.52826e+08     : 348517          : 1.53907e+08     : 0    : 0.702678
+  SCIMemoryMaxUsed  [MBytes ] : 1.52048e+08     : 31   : 1.52826e+08     : 348517          : 1.53907e+08     : 0    : 0.702678
+  MemoryUsed        [MBytes ] : 7.71674e+08     : 31   : 7.76802e+08     : 3.63926e+06     : 7.85441e+08     : 0    : 1.09982
+  MemoryResident    [MBytes ] : 1.52048e+08     : 31   : 1.52826e+08     : 348517          : 1.53907e+08     : 0    : 0.702678
+  Percentage of time spent in overhead : 10.9271
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          317         9.91            8           17           29            68.8   6.2  18.8   6.2    41.7
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      2.17 ms    0.0679 ms    0.0191 ms      0.19 ms            6            56.2   9.4  31.2   3.1    64.2
+          Time: Redu:     0.101 s       3.17 ms     0.324 ms      6.71 ms           29            37.5  12.5  25.0  25.0    52.8
+          Time: Send:      32.2 ms      1.01 ms      0.46 ms      1.42 ms            6             3.1  28.1  62.5   6.2    29.3
+          Time: Test:     0.658 ms    0.0206 ms  3.38e+03 ns     0.115 ms           29            68.8  25.0   3.1   3.1    82.1
+          Time: Wait:      28.6 ms     0.893 ms     0.572 ms      1.03 ms            4             6.2  18.8  18.8  56.2    13.5
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 2       Time=2e-05       Next delT=1e-05       Wall Time=0.244542  EMA=0.0858228   Memory Used=153.00 MBs (avg) 154.18 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 2 at time=2e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0500455       : 0    : 0.0507218       : 0.000308843     : 0.0516052       : 29   : 1.712
+  TaskLocalComm     [seconds] : 0.0072848       : 29   : 0.00858839      : 0.000496635     : 0.00971601      : 13   : 11.6058
+  TaskWaitCommTime  [seconds] : 0.00160319      : 29   : 0.00246396      : 0.00021921      : 0.00274317      : 0    : 10.1783
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.52318e+08     : 31   : 1.52999e+08     : 372850          : 1.54178e+08     : 0    : 0.764459
+  SCIMemoryMaxUsed  [MBytes ] : 1.52318e+08     : 31   : 1.52999e+08     : 372850          : 1.54178e+08     : 0    : 0.764459
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76826e+08     : 3.64344e+06     : 7.85576e+08     : 0    : 1.11378
+  MemoryResident    [MBytes ] : 1.52318e+08     : 31   : 1.52999e+08     : 372850          : 1.54178e+08     : 0    : 0.764459
+  Percentage of time spent in overhead : 5.4635
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          311         9.72            8           14           29            62.5   6.2  12.5  18.8    30.6
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      2.28 ms    0.0712 ms    0.0197 ms     0.198 ms           27            59.4   6.2  25.0   9.4    64.1
+          Time: Redu:        95 ms      2.97 ms     0.342 ms      5.49 ms           25            34.4  15.6  12.5  37.5    46.0
+          Time: Send:        23 ms     0.718 ms     0.403 ms      1.15 ms            6            25.0  40.6  25.0   9.4    37.6
+          Time: Test:     0.559 ms    0.0175 ms  3.26e+03 ns    0.0801 ms           26            65.6  28.1   3.1   3.1    78.2
+          Time: Wait:      27.6 ms     0.864 ms     0.653 ms       1.1 ms           11            31.2  18.8  34.4  15.6    21.3
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 3       Time=3e-05       Next delT=1e-05       Wall Time=0.301216  EMA=0.0712482   Memory Used=153.20 MBs (avg) 154.53 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 3 at time=3e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0498353       : 6    : 0.0502684       : 0.000281068     : 0.0508656       : 21   : 1.17406
+  TaskLocalComm     [seconds] : 0.00753254      : 18   : 0.00828566      : 0.000426115     : 0.00897828      : 13   : 7.71432
+  TaskWaitCommTime  [seconds] : 0.00210587      : 21   : 0.00242798      : 0.000214993     : 0.0027591       : 4    : 12.0009
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.52318e+08     : 31   : 1.53205e+08     : 411803          : 1.5453e+08      : 0    : 0.857476
+  SCIMemoryMaxUsed  [MBytes ] : 1.52318e+08     : 31   : 1.53205e+08     : 411803          : 1.5453e+08      : 0    : 0.857476
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.52318e+08     : 31   : 1.53205e+08     : 411803          : 1.5453e+08      : 0    : 0.857476
+  Percentage of time spent in overhead : 3.64208
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          312         9.75            8           15           23            62.5   6.2  21.9   9.4    35.0
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      2.12 ms    0.0661 ms    0.0208 ms     0.234 ms           23            75.0   6.2   6.2  12.5    71.7
+          Time: Redu:      93.2 ms      2.91 ms     0.374 ms      5.59 ms           27            31.2  18.8  21.9  28.1    47.9
+          Time: Send:      21.3 ms     0.667 ms     0.314 ms      1.09 ms           25            25.0  25.0  37.5  12.5    38.7
+          Time: Test:     0.616 ms    0.0193 ms   3.3e+03 ns    0.0658 ms           22            62.5   9.4  21.9   6.2    70.7
+          Time: Wait:      25.2 ms     0.788 ms     0.572 ms      1.05 ms            2            25.0  25.0  37.5  12.5    25.0
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 4       Time=4e-05       Next delT=1e-05       Wall Time=0.357569  EMA=0.0652901   Memory Used=153.32 MBs (avg) 154.53 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 4 at time=4e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.049513        : 7    : 0.04998         : 0.000324421     : 0.0506561       : 22   : 1.33467
+  TaskLocalComm     [seconds] : 0.00748379      : 22   : 0.0083162       : 0.000460411     : 0.0091474       : 13   : 9.08673
+  TaskWaitCommTime  [seconds] : 0.00170069      : 22   : 0.00234206      : 0.000236833     : 0.00272335      : 2    : 14.001
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.52695e+08     : 31   : 1.53322e+08     : 368240          : 1.5453e+08      : 0    : 0.781354
+  SCIMemoryMaxUsed  [MBytes ] : 1.52695e+08     : 31   : 1.53322e+08     : 368240          : 1.5453e+08      : 0    : 0.781354
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.52695e+08     : 31   : 1.53322e+08     : 368240          : 1.5453e+08      : 0    : 0.781354
+  Percentage of time spent in overhead : 2.731
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          314         9.81            8           15           23            62.5   6.2  18.8  12.5    34.6
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      2.04 ms    0.0637 ms    0.0204 ms     0.223 ms           29            78.1   3.1   6.2  12.5    71.4
+          Time: Redu:      85.3 ms      2.67 ms     0.358 ms       4.6 ms           27            28.1  21.9  12.5  37.5    42.0
+          Time: Send:        20 ms     0.626 ms     0.356 ms      1.06 ms           28            28.1  40.6  28.1   3.1    41.1
+          Time: Test:      0.61 ms    0.0191 ms  3.17e+03 ns    0.0809 ms           22            59.4  28.1   9.4   3.1    76.4
+          Time: Wait:      25.9 ms      0.81 ms      0.57 ms      1.09 ms            3            12.5  46.9  31.2   9.4    25.6
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 5       Time=5e-05       Next delT=1e-05       Wall Time=0.414456  EMA=0.0624891   Memory Used=153.47 MBs (avg) 154.80 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 5 at time=5e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0500736       : 3    : 0.0504968       : 0.00023293      : 0.0509867       : 23   : 0.960871
+  TaskLocalComm     [seconds] : 0.00772922      : 22   : 0.00836524      : 0.000377338     : 0.00907841      : 13   : 7.85566
+  TaskWaitCommTime  [seconds] : 0.00205171      : 23   : 0.00240367      : 0.000168622     : 0.00279976      : 3    : 14.1473
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.52695e+08     : 31   : 1.53474e+08     : 395100          : 1.548e+08       : 0    : 0.85664
+  SCIMemoryMaxUsed  [MBytes ] : 1.52695e+08     : 31   : 1.53474e+08     : 395100          : 1.548e+08       : 0    : 0.85664
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.52695e+08     : 31   : 1.53474e+08     : 395100          : 1.548e+08       : 0    : 0.85664
+  Percentage of time spent in overhead : 2.18392
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          315         9.84            8           15           28            62.5   6.2  21.9   9.4    34.4
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      2.05 ms    0.0641 ms    0.0213 ms     0.204 ms           24            68.8   9.4   9.4  12.5    68.6
+          Time: Redu:      86.8 ms      2.71 ms      0.33 ms      4.59 ms           19            25.0  18.8  12.5  43.8    40.9
+          Time: Send:      20.2 ms     0.631 ms     0.219 ms     0.989 ms           25            25.0  15.6  34.4  25.0    36.2
+          Time: Test:     0.669 ms    0.0209 ms  3.29e+03 ns      0.14 ms           23            87.5   6.2   3.1   3.1    85.0
+          Time: Wait:      25.2 ms     0.789 ms     0.561 ms      1.02 ms           18             9.4  34.4  43.8  12.5    22.4
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 6       Time=6e-05       Next delT=1e-05       Wall Time=0.470774  EMA=0.0607258   Memory Used=153.59 MBs (avg) 154.80 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 6 at time=6e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0494513       : 13   : 0.0499573       : 0.000257492     : 0.0505118       : 28   : 1.0978
+  TaskLocalComm     [seconds] : 0.00741744      : 28   : 0.00826236      : 0.000397684     : 0.00898356      : 12   : 8.02804
+  TaskWaitCommTime  [seconds] : 0.00174608      : 28   : 0.0023546       : 0.000209757     : 0.00266548      : 4    : 11.6634
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.53022e+08     : 31   : 1.53585e+08     : 341958          : 1.548e+08       : 0    : 0.784702
+  SCIMemoryMaxUsed  [MBytes ] : 1.53022e+08     : 31   : 1.53585e+08     : 341958          : 1.548e+08       : 0    : 0.784702
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.53022e+08     : 31   : 1.53585e+08     : 341958          : 1.548e+08       : 0    : 0.784702
+  Percentage of time spent in overhead : 1.81869
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          311         9.72            8           16           29            65.6   3.1  25.0   6.2    39.3
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      1.77 ms    0.0553 ms    0.0216 ms     0.162 ms           24            62.5  18.8   3.1  15.6    66.0
+          Time: Redu:      97.2 ms      3.04 ms     0.347 ms      6.01 ms           29            43.8   6.2  15.6  34.4    49.5
+          Time: Send:      19.1 ms     0.597 ms     0.233 ms     0.964 ms            4            25.0  25.0  25.0  25.0    38.0
+          Time: Test:     0.537 ms    0.0168 ms   3.5e+03 ns    0.0628 ms           26            62.5  15.6  15.6   6.2    73.3
+          Time: Wait:        26 ms     0.813 ms     0.575 ms      1.07 ms            5            21.9  37.5  21.9  18.8    23.8
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 7       Time=7e-05       Next delT=1e-05       Wall Time=0.527614  EMA=0.0597543   Memory Used=153.68 MBs (avg) 155.07 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 7 at time=7e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0499589       : 14   : 0.0504717       : 0.000340231     : 0.0513679       : 21   : 1.74465
+  TaskLocalComm     [seconds] : 0.00738473      : 21   : 0.00830837      : 0.000540214     : 0.00937971      : 13   : 11.4219
+  TaskWaitCommTime  [seconds] : 0.00170135      : 26   : 0.002367        : 0.000261806     : 0.00271639      : 4    : 12.8623
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.53022e+08     : 31   : 1.53684e+08     : 386602          : 1.5507e+08      : 0    : 0.894025
+  SCIMemoryMaxUsed  [MBytes ] : 1.53022e+08     : 31   : 1.53684e+08     : 386602          : 1.5507e+08      : 0    : 0.894025
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.53022e+08     : 31   : 1.53684e+08     : 386602          : 1.5507e+08      : 0    : 0.894025
+  Percentage of time spent in overhead : 1.55728
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          315         9.84            8           15           28            62.5   6.2  21.9   9.4    34.4
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:       1.9 ms    0.0594 ms    0.0204 ms     0.226 ms            7            68.8  15.6   9.4   6.2    73.7
+          Time: Redu:      86.5 ms       2.7 ms     0.358 ms      5.23 ms           25            37.5  12.5  18.8  31.2    48.3
+          Time: Send:      21.8 ms      0.68 ms     0.243 ms      1.18 ms            9            12.5  53.1  25.0   9.4    42.2
+          Time: Test:     0.678 ms    0.0212 ms  3.51e+03 ns    0.0987 ms           23            68.8  21.9   3.1   6.2    78.5
+          Time: Wait:        25 ms      0.78 ms     0.568 ms      1.02 ms            3            21.9  37.5  25.0  15.6    23.7
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 8       Time=8e-05       Next delT=1e-05       Wall Time=0.583566  EMA=0.0589093   Memory Used=153.81 MBs (avg) 155.07 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 8 at time=8e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0489411       : 13   : 0.0495513       : 0.000354095     : 0.0501883       : 24   : 1.26925
+  TaskLocalComm     [seconds] : 0.00746827      : 28   : 0.00825571      : 0.000443091     : 0.00916371      : 7    : 9.90873
+  TaskWaitCommTime  [seconds] : 0.00171287      : 24   : 0.00236234      : 0.000251678     : 0.00274983      : 9    : 14.0916
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.53022e+08     : 31   : 1.53805e+08     : 387309          : 1.5507e+08      : 0    : 0.815939
+  SCIMemoryMaxUsed  [MBytes ] : 1.53022e+08     : 31   : 1.53805e+08     : 387309          : 1.5507e+08      : 0    : 0.815939
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.53022e+08     : 31   : 1.53805e+08     : 387309          : 1.5507e+08      : 0    : 0.815939
+  Percentage of time spent in overhead : 1.36065
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          314         9.81            8           14           28            62.5   6.2   0.0  31.2    29.9
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:       1.8 ms    0.0563 ms    0.0201 ms     0.182 ms           24            68.8  12.5   9.4   9.4    69.1
+          Time: Redu:      82.8 ms      2.59 ms     0.344 ms       4.4 ms           24            31.2  18.8   3.1  46.9    41.1
+          Time: Send:      20.6 ms     0.642 ms     0.376 ms      1.16 ms           30            34.4  50.0   6.2   9.4    44.5
+          Time: Test:     0.677 ms    0.0212 ms  3.33e+03 ns     0.157 ms           26            81.2  15.6   0.0   3.1    86.5
+          Time: Wait:        26 ms     0.811 ms     0.586 ms      1.07 ms            8            15.6  43.8  25.0  15.6    23.9
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 9       Time=9e-05       Next delT=1e-05       Wall Time=0.639955  EMA=0.0584053   Memory Used=153.91 MBs (avg) 155.34 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 9 at time=9e-05
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.049412        : 13   : 0.0499658       : 0.000288315     : 0.050484        : 23   : 1.02657
+  TaskLocalComm     [seconds] : 0.00765546      : 26   : 0.00835916      : 0.000338281     : 0.00918503      : 7    : 8.9915
+  TaskWaitCommTime  [seconds] : 0.00205718      : 26   : 0.00240671      : 0.000181612     : 0.00284338      : 8    : 15.3573
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.53293e+08     : 31   : 1.53908e+08     : 388736          : 1.55341e+08     : 0    : 0.922627
+  SCIMemoryMaxUsed  [MBytes ] : 1.53293e+08     : 31   : 1.53908e+08     : 388736          : 1.55341e+08     : 0    : 0.922627
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.53293e+08     : 31   : 1.53908e+08     : 388736          : 1.55341e+08     : 0    : 0.922627
+  Percentage of time spent in overhead : 1.20712
+
+________________________________________________________________________________
+--------------------------------------------------------------------------------
+MPIStats:+
+--------------------------------------------------------------------------------
+                Name:       Total:         Avg:         Min:         Max:    Max rank: Hist %% [  Q1 |  Q2 |  Q3 |  Q4 ]:  %%Load Imbalance
+         Count: Recv:     1.09e+03           34           34           34           27           100.0   0.0   0.0   0.0     0.0
+         Count: Redu:          256            8            8            8           11           100.0   0.0   0.0   0.0     0.0
+         Count: Send:     1.09e+03           34           34           34           29           100.0   0.0   0.0   0.0     0.0
+         Count: Test:          306         9.56            8           13           29            62.5   6.2   0.0  31.2    26.4
+         Count: Wait:     1.92e+03           60           60           60           21           100.0   0.0   0.0   0.0     0.0
+          Time: Recv:      1.83 ms     0.057 ms      0.02 ms       0.2 ms           25            68.8  15.6   6.2   9.4    71.5
+          Time: Redu:     0.108 s       3.36 ms     0.328 ms      6.28 ms           27            31.2  18.8   9.4  40.6    46.5
+          Time: Send:      18.9 ms      0.59 ms     0.236 ms      1.01 ms            1            31.2  25.0  18.8  25.0    41.4
+          Time: Test:     0.502 ms    0.0157 ms  3.41e+03 ns    0.0631 ms           24            65.6  18.8   9.4   6.2    75.2
+          Time: Wait:      25.4 ms     0.795 ms     0.553 ms      1.11 ms            1            21.9  43.8  25.0   9.4    28.5
+Volume Recv TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            0            96.9   0.0   0.0   3.1     0.1
+Volume Recv0: <= 64B:           33         1.03            1            2            0            96.9   0.0   0.0   3.1    48.4
+Volume Recv1: <= 4KB:          421         13.2           13           18            0            96.9   0.0   0.0   3.1    26.9
+Volume Recv2: <= 2MB:          704           22           22           22           12           100.0   0.0   0.0   0.0     0.0
+Volume Send TOTAL   :      52.7 MB      1.65 MB      1.65 MB      1.65 MB            4           100.0   0.0   0.0   0.0     0.0
+Volume Send0: <= 64B:           64            2            2            2           24           100.0   0.0   0.0   0.0     0.0
+Volume Send1: <= 4KB:          576           18           18           18            8           100.0   0.0   0.0   0.0     0.0
+Volume Send2: <= 2MB:          704           22           22           22           16           100.0   0.0   0.0   0.0     0.0
+
+Timestep 10      Time=0.0001      Next delT=1e-05       Wall Time=0.697092  EMA=0.0581745   Memory Used=153.98 MBs (avg) 155.34 MBs (max on rank: 0     )
+Runtime Summary  summary stats for time step 10 at time=0.0001
+  Description       Units       Minimum           Rank   Average (32)      Std. Dev.         Maximum           Rank   100*(1-ave/max) '% load imbalance'
+  TaskExec          [seconds] : 0.0500757       : 13   : 0.0507709       : 0.000357501     : 0.0514043       : 26   : 1.23221
+  TaskLocalComm     [seconds] : 0.00742634      : 24   : 0.00840672      : 0.000502046     : 0.00939385      : 13   : 10.5083
+  TaskWaitCommTime  [seconds] : 0.00175243      : 26   : 0.00234571      : 0.000265312     : 0.00287192      : 1    : 18.3224
+  NumberOfTasks     [tasks  ] : 8               : 0    : 8               : 0               : 8               : 0    : 0
+  NumberOfPatches   [patches] : 1               : 0    : 1               : 0               : 1               : 0    : 0
+  NumberOfCells     [cells  ] : 32768           : 0    : 32768           : 0               : 32768           : 0    : 0
+  SCIMemoryUsed     [MBytes ] : 1.53293e+08     : 31   : 1.53975e+08     : 385900          : 1.55341e+08     : 0    : 0.87912
+  SCIMemoryMaxUsed  [MBytes ] : 1.53293e+08     : 31   : 1.53975e+08     : 385900          : 1.55341e+08     : 0    : 0.87912
+  MemoryUsed        [MBytes ] : 7.71809e+08     : 31   : 7.76847e+08     : 3.64793e+06     : 7.85576e+08     : 0    : 1.11109
+  MemoryResident    [MBytes ] : 1.53293e+08     : 31   : 1.53975e+08     : 385900          : 1.55341e+08     : 0    : 0.87912
+  Percentage of time spent in overhead : 1.08369
+Sus: going down successfully
